@@ -6,4 +6,4 @@ title: "Primers"
 
 # Airfoils
 
-[Airfoil Selection](/primers/airfoil_selection.md)
+[Airfoil Selection](/primers/airfoil_selection)
