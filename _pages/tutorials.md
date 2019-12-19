@@ -6,7 +6,7 @@ title: "Tutorials"
 
 # Batteries
 
-- [Battery Charging](/batteries)
+- [Battery Charging](/tutorials/batteries)
 
 # Build Skills
 
