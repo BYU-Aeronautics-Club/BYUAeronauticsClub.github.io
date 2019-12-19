@@ -17,7 +17,7 @@ This document will step you through using the Turnigy chargers to charge Lithium
 ## Step 2 - Plug in Battery
 For LiPo batteries, there are two leads that need to be connected to the charger so that the individual cells of the battery can maintain their balance. This particular battery is 3-cell (3S) and uses an XT-60 connector (pictured left) to plug into the charging port. Other connections will require different adapters. Plug the balance connector into the port with the same number of pins (pictured right).
 
-
+![alt text](./figures/chargebatt2a.jpg) ![alt text](./figures/chargebatt2b.jpg)
 
 ## Step 3 - Initiate LiPo Program
 When the charger turns on, the screen will most likely look like the picture below. If this is not the case, press the TYPE/STOP button a few times to back up to the PROGRAM SELECT menu (pictured right)
