@@ -1,1 +1,4 @@
-# Tutorials
+---
+permalink: /tutorials/
+title: "Tutorials"
+---
