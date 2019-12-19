@@ -6,7 +6,7 @@ title: "Tutorials"
 
 # Batteries
 
-- [Battery Charging](aeronautics.byu.edu/tutorials/batteries)
+- [Battery Charging](/batteries)
 
 # Build Skills
 
