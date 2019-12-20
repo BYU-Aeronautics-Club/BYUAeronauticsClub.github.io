@@ -1,6 +1,6 @@
 ---
-title: Welcome to the BYU Aeronautics Club
 layout: splash
+title: Welcome to the BYU Aeronautics Club
 permalink: /
 header:
   overlay_color: "#000"
