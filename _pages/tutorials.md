@@ -4,11 +4,11 @@ title: "Tutorials"
 widescreen: yes
 ---
 
+# Test
+## Batteries
 
-# Batteries
+### [Battery Charging](/tutorials/batteries)
 
-- [Battery Charging](/tutorials/batteries)
+## Build Skills
 
-# Build Skills
-
-# Software
+## Software
