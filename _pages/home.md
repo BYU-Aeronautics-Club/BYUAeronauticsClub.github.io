@@ -1,6 +1,5 @@
 ---
 layout: splash
-title: Welcome to the BYU Aeronautics Club
 permalink: /
 header:
   overlay_color: "#000"
@@ -10,7 +9,7 @@ header:
     - label: "Get Started"
       url: "https://aeronautics.byu.edu/"
   <!-- caption: "Photo credit: [**Unsplash**](https://unsplash.com)" -->
-excerpt: "We're a club for BYU undergraduates and graduates to learn and apply aeronautics in fun projects for all levels of ability."
+excerpt: "Welcome to the BYU Aeronautics Club! We're a club for BYU undergraduates and graduates to learn and apply aeronautics in fun projects for all levels of ability."
 <!-- intro:
   - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`' -->
 feature_row:
