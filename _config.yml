@@ -38,10 +38,9 @@ footer:
       url: "https://www.youtube.com/"
 
 
-# # Reading Files
-# include:
-#   - .htaccess
-#   - _pages
+# Reading Files
+include:
+  - _pages
 # exclude:
 #   - "*.sublime-project"
 #   - "*.sublime-workspace"
