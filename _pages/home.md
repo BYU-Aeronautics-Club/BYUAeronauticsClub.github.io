@@ -8,6 +8,7 @@ header:
     - label: "Get Started"
       url: "/"
 excerpt: "Welcome to the BYU Aeronautics Club! We're a club for BYU undergraduates and graduates to learn and apply aeronautics in fun projects for all levels of ability."
+
 feature_row:
   - image_path: /assets/images/circlesimsmall.png
     alt: "customizable"
