@@ -46,7 +46,7 @@ footer:
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/byuaeronautics/"
     - label: "Youtube"
-      icon: "fa fa-youtube-play"
+      icon: "fab fa-youtube-square"
       url: "https://www.youtube.com/"
 
 defaults:
