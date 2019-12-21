@@ -41,36 +41,6 @@ footer:
 # Reading Files
 include:
   - _pages
-# exclude:
-#   - "*.sublime-project"
-#   - "*.sublime-workspace"
-#   - vendor
-#   - .asset-cache
-#   - .bundle
-#   - .jekyll-assets-cache
-#   - .sass-cache
-#   - assets/js/plugins
-#   - assets/js/_main.js
-#   - assets/js/vendor
-#   - Capfile
-#   - CHANGELOG
-#   - config
-#   - Gemfile
-#   - Gruntfile.js
-#   - gulpfile.js
-#   - LICENSE
-#   - log
-#   - node_modules
-#   - package.json
-#   - Rakefile
-#   - README
-#   - tmp
-# keep_files:
-#   - .git
-#   - .svn
-# encoding: "utf-8"
-# markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
 
 # Conversion
 markdown: kramdown
@@ -187,14 +157,3 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
