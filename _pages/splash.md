@@ -5,7 +5,7 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/makaniapprox.png
   actions:
-    - label: "Get Started"
+    - label: "Test Button"
       url: "/"
 excerpt: "Welcome to the BYU Aeronautics Club! We're a club for BYU undergraduates and graduates to learn and apply aeronautics in fun projects for all levels of ability."
 
