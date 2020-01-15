@@ -1,6 +1,7 @@
 ---
 permalink: /tutorials/
 title: "Tutorials"
+layout: single
 ---
 
 ## Batteries

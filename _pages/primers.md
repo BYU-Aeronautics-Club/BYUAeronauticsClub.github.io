@@ -1,6 +1,7 @@
 ---
 permalink: /primers/
 title: "Primers"
+layout: single
 ---
 
 
