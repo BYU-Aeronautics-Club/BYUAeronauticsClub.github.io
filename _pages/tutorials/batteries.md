@@ -1,6 +1,7 @@
 ---
 permalink: /tutorials/batteries/
 title: "Batteries"
+layout: single
 ---
 
 # Charging Lithium Polymer (LiPo) Batteries
