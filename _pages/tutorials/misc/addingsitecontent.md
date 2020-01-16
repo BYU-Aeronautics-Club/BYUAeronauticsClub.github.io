@@ -44,16 +44,27 @@ Also note that if you're adding figures to your page, you'll need to add the fig
 In order to make your page show up you need to add a specific header to your file of the form
 
     ---
-    permalink: /tutorials/pagefilename/
+    permalink: /tutorials/path_to_tutorial/
     title: "Title to Put on Page"
     layout: single
+    sidebar:
+        nav: "tutorials"
     ---
 
 ### Make the page accessible
 
-You'll probably want to make sure everyone can find your new page, so go ahead and find the tutorials.md file in the [_pages](https://github.com/BYU-Aeronautics-Club/BYU-Aeronautics-Club.github.io/tree/master/_pages) directory. Right now we just have a basic list of the tutorial pages, so add a link formatted like the others in that file. (Pay special attention to the relative paths format, and make sure it matches your file header.) After you've saved your files, go ahead and add, commit, and push them.
+You'll probably want to make sure everyone can find your new page. This is a little bit tricky, so pay attention to this part.  You'll have noticed the sidebar navigation on the left hand side of the tutorials pages. This comes from the sidebar part of the header. As long as you use the header template above, you should be fine. Unfortunately, that's not all that is required.
 
-Note that when you're first pushing your new brach, you'll have to use a slightly different syntax so that git knows what you're doing. Use this command:
+Next, you'll need to navigate to the _data/navigation.yml file (_data/ is in the root directory). Inside, you'll need to find the tutorials: section and then add your page into the navigation where it goes.  For example, if you've got a miscellaneous tutorial on how to put tutorials on the website, you'd add something like
+
+      - title: "Miscellaneous"
+        children:
+        - title: "Adding Tutorials"
+          url: /tutorials/misc/addingsitecontent/
+
+in a reasonable spot in the lineup. You may consider asking the repository owner where the best place to put this would be.
+
+After all of that, you're ready to add, commit, and push your branch. Note that when you're first pushing your new brach, you'll have to use a slightly different syntax so that git knows what you're doing. Use this command:
 
 ``` git push -u origin branch_name```
 
