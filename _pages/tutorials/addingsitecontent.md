@@ -1,4 +1,8 @@
-# Adding Content to the Club Website
+---
+permalink: /tutorials/addingsitecontent/
+title: "Adding Content to the Club Website"
+layout: single
+---
 
 Are you a member of the BYU Aeronautics Club? Have you been given an assignment to create a tutorial and add it to the website? Are you confused as to how to go about making that happen? Did someone in the club point you to this page? If you answered yes to any of these questions, you're most likely in the right place.  Let's figure out the easiest way to start adding tutorials to the club website.
 
@@ -34,9 +38,18 @@ You'll find a [_pages](https://github.com/BYU-Aeronautics-Club/BYU-Aeronautics-C
 
 Also note that if you're adding figures to your page, you'll need to add the figures to the [figures](https://github.com/BYU-Aeronautics-Club/BYU-Aeronautics-Club.github.io/tree/master/_pages/tutorials/figures) subdirectory within the tutorials directory.
 
+##### VERY IMPORTANT
+In order to make your page show up you need to add a specific header to your file of the form
+
+    ---
+    permalink: /tutorials/pagefilename/
+    title: "Title to Put on Page"
+    layout: single
+    ---
+
 ### Make the page accessible
 
-You'll probably want to make sure everyone can find your new page, so go ahead and find the tutorials.md file in the [_pages](https://github.com/BYU-Aeronautics-Club/BYU-Aeronautics-Club.github.io/tree/master/_pages) directory. Right now we just have a basic list of the tutorial pages, so add a link formatted like the others in that file. (Pay special attention to the relative paths format.) After you've saved your files, go ahead and add, commit, and push them.
+You'll probably want to make sure everyone can find your new page, so go ahead and find the tutorials.md file in the [_pages](https://github.com/BYU-Aeronautics-Club/BYU-Aeronautics-Club.github.io/tree/master/_pages) directory. Right now we just have a basic list of the tutorial pages, so add a link formatted like the others in that file. (Pay special attention to the relative paths format, and make sure it matches your file header.) After you've saved your files, go ahead and add, commit, and push them.
 
 Note that when you're first pushing your new brach, you'll have to use a slightly different syntax so that git knows what you're doing. Use this command:
 
