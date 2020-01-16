@@ -71,3 +71,10 @@ dlg:
     children:
       - title: "Design Build Fly"
         url: /pathways/dlg/dbf/
+
+
+fundamentals:
+  - title: "Aerodynamics"
+    children:
+      - title: "Airfoils"
+        url: /fundamentals/aerodynamics/airfoils/
