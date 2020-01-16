@@ -19,7 +19,7 @@ After you've registered for an account, let the repository owner know your githu
 
 ### Learn how to use git
 
-You need to learn how to use git. It's easy. If you've got a Mac or Linux computer, or if you use PowerShell on Windows, it's an inherent feature. [Go ahead and learn](https://try.github.io/) how to clone, add, commit, pull, and push, oh, and creating branches. That's about all you need to know for the basics.
+You need to learn how to use git too; but don't worry, it's pretty easy. If you've got a Mac or Linux computer, or if you use PowerShell on Windows, it's an inherent feature. [Go ahead and learn](https://try.github.io/) how to clone, add, commit, pull, push, and also how to create branches. That's about all you need to know for the basics.
 
 Now you just need to clone the  [BYU-Aeronautics-Club.github.io repository]([BYU-Aeronautics-Club.github.io](https://github.com/BYU-Aeronautics-Club/BYU-Aeronautics-Club.github.io)) and get going!
 
