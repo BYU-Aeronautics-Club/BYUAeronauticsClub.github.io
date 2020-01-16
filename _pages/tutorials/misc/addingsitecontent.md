@@ -1,5 +1,5 @@
 ---
-permalink: /tutorials/addingsitecontent/
+permalink: /tutorials/misc/addingsitecontent/
 title: "Adding Content to the Club Website"
 layout: single
 sidebar:

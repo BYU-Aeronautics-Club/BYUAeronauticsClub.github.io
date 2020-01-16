@@ -1,5 +1,5 @@
 ---
-permalink: /primers/airfoils/
+permalink: /fundamentals/aerodynamics/airfoils/
 title: "Airfoils"
 layout: single
 sidebar:
