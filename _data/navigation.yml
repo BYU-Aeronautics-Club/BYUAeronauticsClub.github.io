@@ -78,3 +78,16 @@ fundamentals:
     children:
       - title: "Airfoils"
         url: /fundamentals/aerodynamics/airfoils/
+
+tutorials:
+  - title: "Propulsion Systems"
+    children:
+      - title: "Batteries"
+        url: /tutorials/prop/batteries/
+        children:
+          - title: "Charging Batteries"
+            url: /tutorials/misc/batteries/
+  - title: "Miscellaneous"
+    children:
+      - title: "Adding Tutorials"
+        url: /tutorials/misc/addingsitecontent/

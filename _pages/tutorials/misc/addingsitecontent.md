@@ -2,6 +2,8 @@
 permalink: /tutorials/addingsitecontent/
 title: "Adding Content to the Club Website"
 layout: single
+sidebar:
+    nav: "tutorials"
 ---
 
 Are you a member of the BYU Aeronautics Club? Have you been given an assignment to create a tutorial and add it to the website? Are you confused as to how to go about making that happen? Did someone in the club point you to this page? If you answered yes to any of these questions, you're most likely in the right place.  Let's figure out the easiest way to start adding tutorials to the club website.
