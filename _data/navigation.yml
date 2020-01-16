@@ -9,3 +9,65 @@ main:
     url: /pathways/
   - title: "Teams"
     url: /teams/
+
+dlg:
+  - title: "Spinster"
+    children:
+      - title: "Prerequisites"
+        url: /pathways/dlg/spinster/prereqs/
+      - title: "Kit"
+        url: /pathways/dlg/spinster/kit/
+      - title: "Build"
+        url: /pathways/dlg/spinster/Build/
+  - title: "Tabooish Part I"
+    children:
+      - title: "Intro to Foam Core Wings"
+        url: /pathways/dlg/taboo/foamcorewings/
+      - title: "Foam Core Wing Manufacture"
+        url: /pathways/dlg/taboo/foamcorewingsmanu/
+      - title: "Wing Kit"
+        url: /pathways/dlg/taboo/wingkit/
+      - title: "Build"
+        url: /pathways/dlg/taboo/wingbuild/
+  - title: "Tabooish Part II"
+    children:
+      - title: "Intro to Composite Fuselages"
+        url: /pathways/dlg/taboo/compfuse/
+      - title: "Composite Fuselage Manufacture"
+        url: /pathways/dlg/taboo/compfusemanu/
+      - title: "Fuselage Kit"
+        url: /pathways/dlg/taboo/fusekit/
+      - title: "Build"
+        url: /pathways/dlg/taboo/fusebuild/
+  - title: "Tabooish Part III"
+    children:
+      - title: "Tail Surfaces"
+        url: /pathways/dlg/taboo/tail/
+      - title: "Ultralight Control Linkages"
+        url: /pathways/dlg/taboo/ctrllinks/
+      - title: "Tail Kit"
+        url: /pathways/dlg/taboo/tailkit/
+      - title: "Build"
+        url: /pathways/dlg/taboo/tailbuild/
+  - title: "Tabooish Part IV (optional)"
+    children:
+      - title: "Intro to Propulsion"
+        url: /pathways/dlg/taboo/prop/
+      - title: "Propulsion System Sizing"
+        url: /pathways/dlg/taboo/propsys/
+      - title: "Propulsion Kit"
+        url: /pathways/dlg/taboo/propkit/
+      - title: "Build"
+        url: /pathways/dlg/taboo/propbuild/
+  - title: "The SuperGee II"
+    children:
+      - title: "Build Plans"
+        url: /pathways/dlg/sgII/buildplans/
+      - title: "SGII Kit"
+        url: /pathways/dlg/sgII/kit/
+      - title: "Build"
+        url: /pathways/dlg/sgII/build/
+  - title: "Final Challenge"
+    children:
+      - title: "Design Build Fly"
+        url: /pathways/dlg/dbf/
