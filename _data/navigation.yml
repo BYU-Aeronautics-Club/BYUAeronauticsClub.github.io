@@ -84,9 +84,6 @@ tutorials:
     children:
       - title: "Batteries"
         url: /tutorials/prop/batteries/
-        children:
-          - title: "Charging Batteries"
-            url: /tutorials/misc/batteries/
   - title: "Miscellaneous"
     children:
       - title: "Adding Tutorials"
