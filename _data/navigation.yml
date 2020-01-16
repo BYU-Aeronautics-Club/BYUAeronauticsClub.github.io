@@ -11,7 +11,7 @@ main:
     url: /teams/
 
 dlg:
-  - title: "Spinster"
+  - title: "Step 1: Spinster"
     children:
       - title: "Prerequisites"
         url: /pathways/dlg/spinster/prereqs/
@@ -19,7 +19,7 @@ dlg:
         url: /pathways/dlg/spinster/kit/
       - title: "Build"
         url: /pathways/dlg/spinster/Build/
-  - title: "Tabooish Part I"
+  - title: "Step 2: Tabooish Part I"
     children:
       - title: "Intro to Foam Core Wings"
         url: /pathways/dlg/taboo/foamcorewings/
@@ -29,7 +29,7 @@ dlg:
         url: /pathways/dlg/taboo/wingkit/
       - title: "Build"
         url: /pathways/dlg/taboo/wingbuild/
-  - title: "Tabooish Part II"
+  - title: "Step 3: Tabooish Part II"
     children:
       - title: "Intro to Composite Fuselages"
         url: /pathways/dlg/taboo/compfuse/
@@ -39,7 +39,7 @@ dlg:
         url: /pathways/dlg/taboo/fusekit/
       - title: "Build"
         url: /pathways/dlg/taboo/fusebuild/
-  - title: "Tabooish Part III"
+  - title: "Step 4: Tabooish Part III"
     children:
       - title: "Tail Surfaces"
         url: /pathways/dlg/taboo/tail/
@@ -59,7 +59,7 @@ dlg:
         url: /pathways/dlg/taboo/propkit/
       - title: "Build"
         url: /pathways/dlg/taboo/propbuild/
-  - title: "The SuperGee II"
+  - title: "Step 5: The SuperGee II"
     children:
       - title: "Build Plans"
         url: /pathways/dlg/sgII/buildplans/
