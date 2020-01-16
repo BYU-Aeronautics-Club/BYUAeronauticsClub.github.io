@@ -1,9 +1,11 @@
 main:
-  - title: "Tutorials"
-    url: /tutorials/
-  - title: "Primers"
-    url: /primers/
   - title: "About"
     url: /about/
-  - title: "People"
-    url: /people/
+  - title: "Fundamentals"
+    url: /fundamentals/
+  - title: "Tutorials"
+    url: /tutorials/
+  - title: "Pathways"
+    url: /pathways/
+  - title: "Teams"
+    url: /teams/

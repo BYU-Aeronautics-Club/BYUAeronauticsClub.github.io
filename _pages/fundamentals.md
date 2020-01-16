@@ -1,6 +1,6 @@
 ---
-permalink: /primers/
-title: "Primers"
+permalink: /fundamentals/
+title: "Fundamentals"
 layout: single
 ---
 
