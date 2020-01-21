@@ -86,7 +86,7 @@ tutorials:
         url: /tutorials/prop/batteries/
   - title: "Manufacturing"
     children:
-      -title: "Foam Cutter"
+      - title: "Foam Cutter"
         url: /tutorials/manufacturing/foamcutter/
   - title: "Miscellaneous"
     children:
