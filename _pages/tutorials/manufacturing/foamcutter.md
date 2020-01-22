@@ -1,5 +1,5 @@
 ---
-permalink: /tutorials/foamcutter/
+permalink: /tutorials/manufacturing/foamcutter/
 title: "Using the Foam Cutter"
 layout: single
 sidebar:
@@ -26,7 +26,7 @@ Make sure to follow safety instructions outlined in the documentation, especiall
 
 **Videos on using Mach 3**
 
-+ Part 1: <https://www.youtube.com/watch?v=lnn8UZ2p7mY> 
-+ Part 2: <https://www.youtube.com/watch?v=w01jGqnCvB0> 
-+ Part 3: <https://www.youtube.com/watch?v=FkY2BQgA-XM> 
++ Part 1: <https://www.youtube.com/watch?v=lnn8UZ2p7mY>
++ Part 2: <https://www.youtube.com/watch?v=w01jGqnCvB0>
++ Part 3: <https://www.youtube.com/watch?v=FkY2BQgA-XM>
 
