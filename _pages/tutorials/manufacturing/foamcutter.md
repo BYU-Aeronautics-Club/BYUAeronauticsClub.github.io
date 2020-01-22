@@ -6,7 +6,7 @@ sidebar:
     nav: "tutorials"
 ---
 
-At a high level, the foam cutting process has two parts: creating and executing g-code. You generate g-code using Profili by creating your desired wing/part profile. That g-code is fed into Mach 3 to cut the foam.There is a large amount of documentation on using the foam cutter available from a few different sources. The instructions created for Dr. Ning’s 415 class are linked below for both written and video formats. It is recommended to get help from an experienced cutter the first time you use the foam cutter before cutting on your own.
+At a high level, the foam cutting process has two parts: creating and executing g-code. You generate g-code using Profili by creating your desired wing/part profile. That g-code is fed into Mach 3 to cut the foam. There is a large amount of documentation on using the foam cutter available from a few different sources. The instructions created for Dr. Ning’s 415 class are linked below for both written and video formats. It is recommended to get help from an experienced cutter the first time you use the foam cutter before cutting on your own.
 
 ### Safety
 
