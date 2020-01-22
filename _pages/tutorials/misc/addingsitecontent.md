@@ -11,7 +11,7 @@ Are you a member of the BYU Aeronautics Club? Have you been given an assignment 
 ## Adding Tutorials
 
 ### Learn Markdown
-First things first, you'll need to get familiar with Markdown syntax, which is what almost all of these pages are written in.  It's pretty easy, actually. Just go ahead and complete a tutorial like [markdowntutorial.com](https://www.markdowntutorial.com/), or find a [markdown cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links) with all the basics.
+First things first, you'll need to get familiar with Markdown syntax, which is what almost all of these pages are written in.  It's pretty easy, actually. Just go ahead and complete a tutorial like [markdowntutorial.com](https://www.google.com/search?q=markdown+tutorial&rlz=1C5CHFA_enUS705US705&oq=markdown+tutorial&aqs=chrome.0.69i59j69i57j69i60l4.1839j0j9&sourceid=chrome&ie=UTF-8), or find a [markdown cheat sheet](https://www.google.com/search?safe=active&rlz=1C5CHFA_enUS705US705&sxsrf=ACYBGNSGWnGGLLpeBiFetZKDb-TNLFU9VQ%3A1579216137828&ei=Ce0gXuWVMsrH-gT0qKHQAQ&q=markdown+cheat+sheet&oq=markdown+cheat+sheet&gs_l=psy-ab.3..35i39j0l9.3941.3941..4521...0.1..0.93.93.1......0....2j1..gws-wiz.......0i71.WiUTo0b6wFg&ved=0ahUKEwilvqzHnonnAhXKo54KHXRUCBoQ4dUDCAs&uact=5) with all the basics.
 
 ### Git a github account
 
@@ -23,7 +23,7 @@ After you've registered for an account, let the repository owner know your githu
 
 You need to learn how to use git too; but don't worry, it's pretty easy. If you've got a Mac or Linux computer, or if you use PowerShell on Windows, it's an inherent feature. [Go ahead and learn](https://try.github.io/) how to clone, add, commit, pull, push, and also how to create branches. That's about all you need to know for the basics.
 
-Now you just need to clone the  [BYU-Aeronautics-Club.github.io repository]([BYU-Aeronautics-Club.github.io](https://github.com/BYU-Aeronautics-Club/BYU-Aeronautics-Club.github.io)) and get going!
+Now you just need to clone the  [BYU-Aeronautics-Club.github.io repository]([BYU-Aeronautics-Club.github.io](https://github.com/BYU-Aeronautics-Club/BYU-Aeronautics-Club.github.io) and get going!
 
 ### Create a branch
 
@@ -70,4 +70,4 @@ After all of that, you're ready to add, commit, and push your branch. Note that 
 
 ### Create a Pull request
 
-Now that it's all pushed and in the repo for everyone to see, your page still isn't on the website. Never fear, however, you're on the final step. You need to submit a pull request.  You can do that on github.com in the repository. [This Link](https://yangsu.github.io/pull-request-tutorial/) and [This Link](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) have pretty good explanations of how to do that.  After you've submitted your request, the repository owner can go in, merge your branch into master, and your page will be up and running! Congrats!
+Now that it's all pushed and in the repo for everyone to see, your page still isn't on the website. Never fear, however, you're on the final step. You need to submit a pull request.  You can do that on github.com in the repository. [This Link](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) has a pretty good explanations of how to do that (it is official after all).  After you've submitted your request, the repository owner can go in, merge your branch into master, and your page will be up and running! Congrats!
