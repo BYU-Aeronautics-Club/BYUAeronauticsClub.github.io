@@ -10,7 +10,7 @@ main:
   - title: "Teams"
     url: /teams/
 
-dlg:
+f3k:
   - title: "Step 1: Spinster"
     children:
       - title: "Prerequisites"
