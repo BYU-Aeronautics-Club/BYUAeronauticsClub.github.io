@@ -57,7 +57,7 @@ Tip 3: If your cut is coming out the wrong size, check on the main printing wind
 
 Now that your document has been sent to the laser cutter, a few things need to be done to make sure it’s set up properly. To focus the laser cutter, first move the selection to “Focus” on the control panel on the right hand side using the selection arrows. Place your material on laser cutter in the back left corner and hang the focusing tool on the laser. 
 
-![alt text](../figures/Focus_Selection_7.jpg) ![alt text](../figures/Focus_Tool_8.jpg)
+![alt text](../figures/Focus_Selection_7.jpg | width=250) ![alt text](../figures/Focus_Tool_8.jpg |width=250)
 
 Then use the little knob to move the bed up until it just touches the material. Once it does, click the knob in so that it zeros the laser cutter. You should see a bunch of zeros on the little screen now when “Focus” is selected.
 
