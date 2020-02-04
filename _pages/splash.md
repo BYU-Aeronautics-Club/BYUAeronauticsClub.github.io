@@ -27,7 +27,7 @@ feature_row:
   - image_path: /assets/images/Poster_Presentation.jpg
     alt: "Build Resume"
     title: "Build Your Resume"
-    excerpt: "Participate on our design teams and prepare to compete in the public arena and gain opportunities to network with professionals in industry"
+    excerpt: "Participate in our design teams and prepare to compete in the public arena and gain opportunities to network with professionals in industry."
     url: "/docs/license/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
