@@ -1,5 +1,5 @@
 ---
-permalink: /tutorials/misc/xflr5
+permalink: /tutorials/misc/xflr5/
 title: "Using XFLR5"
 layout: single
 sidebar:
