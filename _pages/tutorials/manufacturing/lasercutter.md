@@ -6,8 +6,6 @@ sidebar:
     nav: "tutorials"
 ---
 
-### Introduction
-
 This document presents instructions for use of the laser cutter specifically with foam board planes. It is specifically for use with the CoralDRAW program and the Epilog M2 laser cutter, the software and machine available in the BYU Prototyping Lab. 
 
 ### Step 1 - Boot Up the Laser Cutter
