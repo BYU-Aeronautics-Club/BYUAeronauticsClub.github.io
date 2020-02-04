@@ -88,7 +88,11 @@ tutorials:
     children:
       - title: "Foam Cutter"
         url: /tutorials/manufacturing/foamcutter/
+      - title: "Laser Cutter"
+        url: /tutorials/manufacturing/lasercutter/
   - title: "Miscellaneous"
     children:
       - title: "Adding Tutorials"
         url: /tutorials/misc/addingsitecontent/
+      - title: "XFLR5"
+        url:/tutorials/misc/xflr5/
