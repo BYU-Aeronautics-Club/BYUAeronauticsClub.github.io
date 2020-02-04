@@ -1,5 +1,5 @@
 ---
-permalink: /tutorials/manufacturing/lasercutter.md
+permalink: /tutorials/manufacturing/lasercutter/
 title: "Using the Laser Cutter"
 layout: single
 sidebar:
