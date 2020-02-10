@@ -14,7 +14,7 @@ feature_row:
     alt: "fun"
     title: "Fun For ANY Student"
     excerpt: "We welcome students from any discipline to participate. No experience is required to get started in the Aeronautics Club."
-    url: "/"
+    url: "/about/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/Wire_cutter.jpg
