@@ -6,7 +6,7 @@ header:
   overlay_image: /assets/images/Cover_Photo_V2.jpg
   actions:
     - label: "Get Started"
-      url: "/"
+      url: "/about/"
 excerpt: "Welcome to the BYU Aeronautics Club! We're a club for BYU undergraduates and graduates to learn and apply aeronautics in fun projects for all levels of ability."
 
 feature_row:
@@ -21,14 +21,14 @@ feature_row:
     alt: "learn"
     title: "Learn as You Go"
     excerpt: "As you participate in projects and competitions you'll learn the skills you need to design, build, and fly your own aircraft."
-    url: "/"
+    url: "/about/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/Poster_Presentation.jpg
     alt: "Build Resume"
     title: "Build Your Resume"
-    excerpt: "Participate in our design teams and prepare to compete in the public arena and gain opportunities to network with professionals in industry."
-    url: "/docs/license/"
+    excerpt: "Our students learn principles of design and aerodynamics to compete in the public arena and prepare to become leaders in the aersopace industry."
+    url: "/about/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
 ---
