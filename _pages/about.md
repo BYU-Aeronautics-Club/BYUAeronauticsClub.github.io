@@ -4,7 +4,7 @@ title: "About"
 layout: single
 ---
 
-The Aeronautics Club is the only club on campus dedicated to the design, construction, and flight of fixed-wing UAV's. We started in 2018 as a small shoot-off from the local BYU branch of AIAA (American Institute of Aeronautics and Astronautics). Dedicated leadership and club members helped to build this club into a community of students commited to engineering excellence. We take students from any major or background, teaching you importanct concepts to be successful and enjoy the entire process. 
+The BYU Aeronautics Club is the only club on campus dedicated to the design, construction, and flight of fixed-wing UAV's. We started in 2018 as a small shoot-off from the local BYU branch of AIAA (American Institute of Aeronautics and Astronautics). Dedicated leadership and club members helped to build this club into a community of students commited to engineering excellence. We take students from any major or background, teaching you importanct concepts to be successful and enjoy the entire process. 
 
 ![alt text](../assets/images/Happy_flyers2.jpg)
 
