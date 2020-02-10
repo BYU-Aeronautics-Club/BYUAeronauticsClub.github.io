@@ -18,3 +18,6 @@ Thursdays at 5pm in EB 112
 
 ### Contact us:
 email: byuaeronautics@gmail.com
+
+### Club Payments Page:
+<https://commerce.cashnet.com/webcaroc>
