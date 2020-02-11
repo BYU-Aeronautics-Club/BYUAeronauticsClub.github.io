@@ -7,7 +7,8 @@ header:
   actions:
     - label: "About Us"
       url: "/about/"
-  excerpt: A Student Club        
+excerpt: A Student Club 
+excerpt:     
   
 
 feature_row:
