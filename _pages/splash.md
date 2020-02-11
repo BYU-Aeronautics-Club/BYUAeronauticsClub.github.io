@@ -43,4 +43,4 @@ gallery:
 
 {% include feature_row id="leadership_row" type="center" %}
 
-{% include galler %}
+{% include gallery %}
