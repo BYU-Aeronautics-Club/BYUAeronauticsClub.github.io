@@ -3,7 +3,7 @@ layout: splash
 permalink: /
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/Cover_Photo_V3.jpg
+  overlay_image: /assets/images/Cover_Photo_V4.jpg
   actions:
     - label: "About Us"
       url: "/about/"
