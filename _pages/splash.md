@@ -44,4 +44,4 @@ gallery:
 {% include feature_row id="leadership_row" type="center" %}
 
 {% include gallery %}
-President: Justin Spencer  Vice President: Adam Hale  Secretary: Adam Wangeman
+President: Justin Spencer     Vice President: Adam Hale       Secretary: Adam Wangeman
