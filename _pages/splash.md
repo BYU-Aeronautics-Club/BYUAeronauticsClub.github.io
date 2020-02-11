@@ -29,13 +29,13 @@ leadership_row:
 leadership_row2:
   - image_path: /assets/images/logo_dark.png
     alt: "President"
-    excerpt: "President: Justin Spencer"
+    title: "President: Justin Spencer"
   - image_path: /assets/images/logo_dark.png
     alt: "Vice President"
-    excerpt: "Vice President: Adam Hale"
+    title: "Vice President: Adam Hale"
   - image_path: /assets/images/logo_dark.png
     alt: "Secretary"
-    excerpt: "Secretary:       Adam Wangeman"
+    title: "Secretary:       Adam Wangeman"
     
 ---
 
