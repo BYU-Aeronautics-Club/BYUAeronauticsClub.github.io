@@ -23,8 +23,8 @@ feature_row:
     title: "Build Your Resume"
     excerpt: "Our students learn principles of design and aerodynamics to compete in the public arena and prepare to become leaders in the aersopace industry."
     
-leadership_row:
-  - title: "Student Leadership"
+### Student Leadership
+{: .text-center}
 
 gallery:
   - image_path: /assets/images/logo_dark.png
@@ -41,8 +41,5 @@ gallery:
 
 {% include feature_row %}
 
-{% include feature_row id="leadership_row" type="center" %}
-
 {% include gallery %}
-
-Test text
+President: Justin Spencer  Vice President: Adam Hale  Secretary: Adam Wangeman
