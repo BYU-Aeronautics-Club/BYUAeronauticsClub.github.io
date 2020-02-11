@@ -28,13 +28,14 @@ feature_row:
 leadership_row:
   - image_path: /assets/images/logo_dark.png
     alt: "President"
-    excerpt: President: Justin Spencer
+    excerpt: "President: Justin Spencer"
   - image_path: /assets/images/logo_dark.png
     alt: "Vice President"
-    excerpt: Vice President: Adam Hale
+    excerpt: "Vice President: Adam Hale"
   - image_path: /assets/images/logo_dark.png
     alt: "Secretary"
-    excerpt: Secretary: Adam Wangeman
+    excerpt: "Secretary: Adam Wangeman"
+    caption: "Test Caption"
     
 ---
 
