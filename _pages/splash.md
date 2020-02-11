@@ -14,23 +14,17 @@ feature_row:
     alt: "fun"
     title: "Fun For ANY Student"
     excerpt: "We welcome students from any discipline to participate. No experience is required to get started in the Aeronautics Club."
-    url: "/about/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
+    
   - image_path: /assets/images/Wire_cutter.jpg
     alt: "learn"
     title: "Learn as You Go"
     excerpt: "As you participate in projects and competitions you'll learn the skills you need to design, build, and fly your own aircraft."
-    url: "/about/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
+    
   - image_path: /assets/images/Poster_Presentation.jpg
     alt: "Build Resume"
     title: "Build Your Resume"
     excerpt: "Our students learn principles of design and aerodynamics to compete in the public arena and prepare to become leaders in the aersopace industry."
-    url: "/about/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
+    
 ---
 
 {% include feature_row %}
