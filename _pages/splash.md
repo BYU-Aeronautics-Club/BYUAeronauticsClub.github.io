@@ -52,6 +52,6 @@ Secretary_row:
 
 {% include feature_row id="president_row" type="left" %}
 
-{% include feature_row id="Vp_row" type="left" %}
+{% include feature_row id="VP_row" type="left" %}
 
 {% include feature_row id="Secretary_row" type="left" %}
