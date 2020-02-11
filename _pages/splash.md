@@ -7,7 +7,7 @@ header:
   actions:
     - label: "About Us"
       url: "/about/"
-excerpt: A Student Club  
+excerpt: ""  
   
 feature_row:
   - image_path: /assets/images/Flying_Fun.jpg
@@ -30,7 +30,8 @@ president_row:
   - image_path: /assets/images/logo_dark.png
     alt: "President"
     title: "President: Justin Spencer"
-    excerpt: "Your amazing bio will be here and go on to do so many things and amaze everyone and everything so don't worry about how long this line looks on github because it will be beautiful on the page."
+    excerpt: "**Test formatting**
+    Your amazing bio will be here and go on to do so many things and amaze everyone and everything so don't worry about how long this line looks on github because it will be beautiful on the page."
     
 VP_row:
   - image_path: /assets/images/logo_dark.png
