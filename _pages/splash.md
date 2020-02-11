@@ -27,11 +27,11 @@ leadership_row:
   - title: "Student Leadership"
 
 leadership_row2:
-  - image_path: /assets/images/logo_dark.png
+  - image_path: /assets/images/Dark_logo_300x264.png
     alt: "President"
     title: "President: Justin Spencer"
     excerpt: "Justin did a lot of stuff to become the person he is today. Flying planes, building planes, capstone, playing guitar, and lots of other neat stuff. Hopefully this will fill up the bio area so that it looks nice when it's on the page. What do you think, Chaz? In other news, Spacex has created its own network on satellites so they don't have to pay phone bills anymore. Pretty big deal I guess. How long will it take for that to pay off, do you think? Quite awhile, I'm guessing."
-  - image_path: /assets/images/logo_dark.png
+  - image_path: /assets/images/Dark_logo_300x264.png
     alt: "Vice President"
     title: "Vice President: Adam Hale"
   - image_path: /assets/images/logo_dark.png
