@@ -7,7 +7,7 @@ header:
   actions:
     - label: "About Us"
       url: "/about/"
-excerpt: ""  
+excerpt: "A Student Club"  
   
 feature_row:
   - image_path: /assets/images/Flying_Fun.jpg
@@ -25,25 +25,17 @@ feature_row:
     
 leadership_row:
   - title: "Student Leadership"
-    
-president_row:
+
+gallery:
   - image_path: /assets/images/logo_dark.png
     alt: "President"
     title: "President: Justin Spencer"
-    excerpt: "**Test formatting**
-    Your amazing bio will be here and go on to do so many things and amaze everyone and everything so don't worry about how long this line looks on github because it will be beautiful on the page."
-    
-VP_row:
   - image_path: /assets/images/logo_dark.png
     alt: "Vice President"
     title: "Vice President: Adam Hale"
-    excerpt: "Your amazing bio will be here and go on to do so many things and amaze everyone and everything so don't worry about how long this line looks on github because it will be beautiful on the page."
-    
-Secretary_row:
   - image_path: /assets/images/logo_dark.png
     alt: "Secretary"
     title: "Secretary: Adam Wangeman"
-    excerpt: "Your amazing bio will be here and go on to do so many things and amaze everyone and everything so don't worry about how long this line looks on github because it will be beautiful on the page."
     
 ---
 
@@ -51,8 +43,4 @@ Secretary_row:
 
 {% include feature_row id="leadership_row" type="center" %}
 
-{% include feature_row id="president_row" type="left" %}
-
-{% include feature_row id="VP_row" type="left" %}
-
-{% include feature_row id="Secretary_row" type="left" %}
+{% include galler %}
