@@ -26,16 +26,16 @@ feature_row:
 leadership_row:
   - title: "Student Leadership"
 
-gallery:
+leadership_row2:
   - image_path: /assets/images/logo_dark.png
     alt: "President"
-    title: "President: Justin Spencer"
+    excerpt: "President: Justin Spencer"
   - image_path: /assets/images/logo_dark.png
     alt: "Vice President"
-    title: "Vice President: Adam Hale"
+    excerpt: "Vice President: Adam Hale"
   - image_path: /assets/images/logo_dark.png
     alt: "Secretary"
-    title: "Secretary: Adam Wangeman"
+    excerpt: "Secretary: Adam Wangeman"
     
 ---
 
@@ -43,5 +43,6 @@ gallery:
 
 {% include feature_row id="leadership_row" type="center" %}
 
+(% include feature_row id="leadership_row2" %}
+
 {% include gallery %}
-President: Justin Spencer     Vice President: Adam Hale       Secretary: Adam Wangeman
