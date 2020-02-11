@@ -25,6 +25,22 @@ feature_row:
     title: "Build Your Resume"
     excerpt: "Our students learn principles of design and aerodynamics to compete in the public arena and prepare to become leaders in the aersopace industry."
     
+leadership_row:
+  - image_path: /assets/images/logo_dark.png
+    alt: "President"
+    excerpt: President Excerpt
+    caption: President Caption
+  - image_paht: /assets/images/logo_dark.png
+    alt: "Vice President"
+    excerpt: VP
+    caption: VP caption
+  - image_path: /assets/images/logo_dark.png
+    alt: "Secretary"
+    exceprt: Secretary
+    caption: Secretary caption
+    
 ---
 
 {% include feature_row %}
+
+{% include feature_row id="leadership_row" %}
