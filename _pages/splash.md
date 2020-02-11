@@ -7,8 +7,8 @@ header:
   actions:
     - label: "About Us"
       url: "/about/"
-  excerpt:             
-  excerpt:
+  excerpt: A Student Club        
+  
 
 feature_row:
   - image_path: /assets/images/Flying_Fun.jpg
