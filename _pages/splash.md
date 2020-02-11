@@ -35,7 +35,7 @@ leadership_row2:
     title: "Vice President: Adam Hale"
   - image_path: /assets/images/logo_dark.png
     alt: "Secretary"
-    title: "Secretary:       Adam Wangeman"
+    title: "Secretary: Adam Wangeman"
     
 ---
 
@@ -43,4 +43,4 @@ leadership_row2:
 
 {% include feature_row id="leadership_row" type="center" %}
 
-{% include feature_row id="leadership_row2" %}
+{% include feature_row id="leadership_row2" type="center" %}
