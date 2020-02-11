@@ -46,4 +46,4 @@ leadership_row2:
 
 {% include feature_row id="leadership_row" type="center" %}
 
-{% include feature_row id="leadership_row2" type="left" %}
+{% include feature_row id="leadership_row2" %}
