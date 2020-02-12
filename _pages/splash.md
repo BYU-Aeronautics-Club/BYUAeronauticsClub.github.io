@@ -24,7 +24,7 @@ feature_row:
     excerpt: "Our students learn principles of design and aerodynamics to compete in the public arena and prepare to become leaders in the aersopace industry."
 
 leadership_row:
-  - title: "Student Leadership 400 350 350"
+  - title: "Student Leadership 410 350 360"
 
 leadership_row2:
   - image_path: /assets/images/Dark_logo_410x360.png
