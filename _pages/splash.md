@@ -29,8 +29,8 @@ leadership_row:
 leadership_row2:
   - image_path: /assets/images/Dark_logo_410x360.png
     alt: "President"
-    title: "Pres"
-    excerpt: "Justin Spencer"
+    title: "President"
+    excerpt: "Justin"
   - image_path: /assets/images/Dark_logo_350x308.png
     alt: "Vice President"
     title: "Vice President"
