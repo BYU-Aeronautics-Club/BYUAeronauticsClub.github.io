@@ -27,7 +27,7 @@ leadership_row:
   - title: "Student Leadership"
 
 leadership_row2:
-  - image_path: /assets/images/Dark_logo_300x264.png
+  - image_path: /assets/images/Dark_logo_400x352.png
     alt: "President"
     title: "President"
     excerpt: "Justin Spencer"
