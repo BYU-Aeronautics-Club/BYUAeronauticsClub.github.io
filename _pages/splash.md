@@ -27,10 +27,10 @@ leadership_row:
   - title: "Student Leadership 410 350 360"
 
 leadership_row2:
-  - image_path: /assets/images/Dark_logo_410x360.png
+  - image_path: /assets/images/Justin_Pic.jpg
     alt: "President"
-    title: "Pres"
-    excerpt: "Justin"
+    title: "President"
+    excerpt: "Justin Spencer"
   - image_path: /assets/images/Dark_logo_350x308.png
     alt: "Vice President"
     title: "Vice President"
