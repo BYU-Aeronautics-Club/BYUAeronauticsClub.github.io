@@ -27,7 +27,7 @@ leadership_row:
   - title: "Student Leadership 400 350 350"
 
 leadership_row2:
-  - image_path: /assets/images/Dark_logo_400x352.png
+  - image_path: /assets/images/Dark_logo_410x360.png
     alt: "President"
     title: "President"
     excerpt: "Justin Spencer"
@@ -35,7 +35,7 @@ leadership_row2:
     alt: "Vice President"
     title: "Vice President"
     excerpt: "Adam Hale"
-  - image_path: /assets/images/Dark_logo_350x308.png
+  - image_path: /assets/images/Dark_logo_360x316.png
     alt: "Secretary"
     title: "Secretary"
     excerpt: "Adam Wangeman"
