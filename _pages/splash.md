@@ -35,7 +35,7 @@ leadership_row2:
     alt: "Vice President"
     title: "Vice President"
     excerpt: "Adam Hale"
-  - image_path: /assets/images/Dark_logo_390.png
+  - image_path: /assets/images/Justin_Pic.png
     alt: "Secretary"
     title: "Secretary"
     excerpt: "Adam Wangeman"
