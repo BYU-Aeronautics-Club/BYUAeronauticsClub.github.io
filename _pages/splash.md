@@ -30,7 +30,9 @@ leadership_row2:
   - image_path: /assets/images/Justin_410.jpg
     alt: "President"
     title: "President"
-    excerpt: "Justin Spencer"
+    excerpt: "Justin Spencer
+    
+    jspenc042@gmail.com"
   - image_path: /assets/images/Adam_340.jpg
     alt: "Vice President"
     title: "Vice President"
