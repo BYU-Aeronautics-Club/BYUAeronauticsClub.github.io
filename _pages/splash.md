@@ -31,11 +31,11 @@ leadership_row2:
     alt: "President"
     title: "President"
     excerpt: "Justin Spencer"
-  - image_path: /assets/images/Dark_logo_340.png
+  - image_path: /assets/images/Adam_340.jpg
     alt: "Vice President"
     title: "Vice President"
     excerpt: "Adam Hale"
-  - image_path: /assets/images/Justin_Pic.jpg
+  - image_path: /assets/images/Adam_W_400.jpg
     alt: "Secretary"
     title: "Secretary"
     excerpt: "Adam Wangeman"
