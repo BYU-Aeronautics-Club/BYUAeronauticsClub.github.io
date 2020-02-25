@@ -49,7 +49,7 @@ The charger will stop charging automatically once it reaches the end voltage, bu
 ### Step 4 - Turn off DC Power Supply
 
 Do the right thing. Remember to turn it off.
-![bat4](./figures.Bat4.jpg)
+![bat4](./figures/Bat4.jpg)
 
 
 
