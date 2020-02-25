@@ -24,6 +24,7 @@ For LiPo batteries, there are two leads that need to be connected to the charger
 
 ### Step 3 - Initiate LiPo Program
 When the charger turns on, the screen will most likely look like the picture below. If this is not the case, press the TYPE/STOP button a few times to back up to the PROGRAM SELECT menu (pictured right)
+
 ![bat3a](./figures/Bat3a.jpg) ![bat3b](./figures/Bat3b.jpg)
 
 #### Step 3a - Enter Charging Menu
