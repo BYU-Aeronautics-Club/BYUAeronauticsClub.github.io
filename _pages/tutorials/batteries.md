@@ -20,7 +20,7 @@ LiPo batteries are by far the most widely used and available batteries in model 
 ### Lithium-Ion Batteries
 
 ### Comparison Table
-| | LiPo | NiMH | LiFe | LI |
+| Characteristic | LiPo | NiMH | LiFe | LI |
 |-------|--------|---------|---------|
 | Energy Density (Wh/kg) | 100-265 | 60-120 | 90-160 | 100-265 |
 | Cycle Durability (#cycles) | 200-400 | 180-2000 | 2000 | 400-2000 |
