@@ -5,12 +5,29 @@ layout: single
 sidebar:
     nav: "tutorials"
 ---
+Many modern UAVs use electronic propulsion and control systems, as opposed to the older gas-propelled systems. Such a system requires power, namely in the form of a battery. The preferred battery type in the Aeronautics Club is the Lithium Polymer battery. This is due to its ease of care and high energy density. That being said, the main focus of this page will be on LiPo batteries, but care and use of other batteries will be covered.
 
-## Charging Lithium Polymer (LiPo) Batteries
+## Battery Types
+Although we primarily use LiPo batteries, there a few different battery types in popular use in the model aviation world. These include Lithium Polymer (LiPo), Lithiu Iron (LiFe), Nickel Metal Hydride (NiMH), and Lithium-ion (LI). There are various tradeoffs associated with selecting one battery over another including ease of use, energy density, capabilities, and lifespan. Cost and availability should also be considered. We will conduct a brief overview of each and their various characteristics.
 
-### Introduction
+### Lithium Polymer Batteries
+LiPo batteries are by far the most widely used and available batteries in model aviation.  
 
-This document will step you through using the Turnigy chargers in the lab to charge Lithium Polymer (LiPo) batteries. Although you may be using a different type of battery, the general controls of the instrument will be the same.
+### Nickel Metal Hydride Batteries
+
+### Lithium Iron Batteries
+
+### Lithium-Ion Batteries
+
+### Comparison Table
+| | LiPo | NiMH | LiFe | LI |
+|-------|--------|---------|---------|
+| Energy Density (Wh/kg) | 100-265 | 60-120 | 90-160 | 100-265 |
+| Cycle Durability (#cycles) | 200-400 | 180-2000 | 2000 | 400-2000 |
+| Average Price (Wh/dollar) | 3-4 | $$$ | 3-24 | 3-4 |
+
+## Charging LiPo Batteries
+This section will step you through using the Turnigy chargers in the lab to charge LiPo batteries. Although you may be using a different type of battery, the general controls of the instrument will be the same.
 
 
 ### Step 1 - Power on DC Power Supply
