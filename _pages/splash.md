@@ -18,7 +18,7 @@ feature_row:
     alt: "learn"
     title: "Learn as You Go"
     excerpt: "As you participate in projects and competitions you'll learn the skills you need to design, build, and fly your own aircraft."
-  - image_path: /assets/images/Poster_Presentation.jpg
+  - image_path: /assets/images/Poster2.jpg
     alt: "Build Resume"
     title: "Build Your Resume"
     excerpt: "Our students learn principles of design and aerodynamics to compete in the public arena and prepare to become leaders in the aersopace industry."
