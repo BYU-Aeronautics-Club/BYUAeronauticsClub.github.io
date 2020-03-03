@@ -5,13 +5,17 @@ layout: single
 sidebar:
     nav: "tutorials"
 ---
-Many modern UAVs use electronic propulsion and control systems, as opposed to the older gas-propelled systems. Such a system requires power, namely in the form of a battery. The preferred battery type in the Aeronautics Club is the Lithium Polymer battery. This is due to its ease of care and high energy density. That being said, the main focus of this page will be on LiPo batteries, but care and use of other batteries will be covered.
+Many modern UAVs use electronic propulsion and control systems, as opposed to the older gas-propelled systems. Such a system requires power, namely in the form of a battery. The preferred battery type in the Aeronautics Club is the Lithium Polymer battery. This is due mainly to its relatively and high energy density and discharge capability. That being said, the main focus of this page will be on LiPo batteries, but care and use of other batteries will be covered.
 
 ## Battery Types
-Although we primarily use LiPo batteries, there a few different battery types in popular use in the model aviation world. These include Lithium Polymer (LiPo), Lithiu Iron (LiFe), Nickel Metal Hydride (NiMH), and Lithium-ion (LI). There are various tradeoffs associated with selecting one battery over another including ease of use, energy density, capabilities, and lifespan. Cost and availability should also be considered. We will conduct a brief overview of each and their various characteristics.
+Although we primarily use LiPo batteries, there a few different battery types in popular use in the model aviation world. These include Lithium Polymer (LiPo), Nickel Metal Hydride (NiMH), Lithiu Iron (LiFe), and Lithium-ion (LI). There are various tradeoffs associated with selecting one battery over another including ease of use, energy density, capabilities, and lifespan. Cost and availability should also be considered. We will conduct a brief overview of each and their various characteristics.
 
 ### Lithium Polymer Batteries
-LiPo batteries are by far the most widely used and available batteries in model aviation.  
+LiPo batteries are by far the most widely used and available batteries in model aviation. This battery is highly stable and hard to mess up with. The energy is stored in a solid polymer electrolyte without the use of metallic nodes. Each battery has different sections called cells that provide a nominal voltage of 3.7V per cell. These cells can come in various shapes and sizes to provide various amounts of available energy. This energy is typically measured in milli-Amp-hours (mAh). The total size of the battery will depend on both number of cells and energy capacity. We will typically use 3s (3 cell) batteries to provide the desired voltage for our planes (11.1V), but it is typical to use 2-6s LiPo batteries based on the voltage you want.
+
+Another important compontent of a LiPo battery is its discharge rate, or C rating. This is typically what distinguishes a lower-quality battery from higher quality ones. The C rating determines how much current can be drawn from the battery at any one time. For example, for a 20C battery with an energy capacity of 2000 mAh (or 2.0 Ah), the max discharge rate is 20x2.0 = 40 Amps. This should typically be about 15-20% above the max current draw of your propulsion system to avoid damaging the battery. LiPo batteries will typicall have much higher discharge rates than other battery types, including Lithium-Ion batteries (which have comparable energy density). 
+
+When caring for LiPo batteries, it is important to maintain each cell within a certain voltage range. Chargers with LiPo battery charging capabilities will have a balance cable that allows the charger to charge each cell at the same rate, maintaining the same general voltage level. This is important in charging and discharge to preserve the stability of the battery. In general, each cell should also remain within a 3.6V-4.2V range. In any case, you should NEVER allow a cell to reach below 3.0V. Doing so will result in severe shortening of the cell's life cycle. When not in use, batteries should be stored at 3.7V per cell. This provides the longest lifespan. When LiPos reach the end of their life cycle or are misused, they tend to puff up. This is a tell-tale sign that you should consider disposing of them. This should be done using safety guidelines outlined by local laws and ordinances.
 
 ### Nickel Metal Hydride Batteries
 
@@ -25,7 +29,7 @@ LiPo batteries are by far the most widely used and available batteries in model 
 | ------- | -------- | --------- | --------- |
 | Energy Density (Wh/kg) | 100-265 | 60-120 | 90-160 | 100-265 |
 | Cycle Durability (#cycles) | 200-400 | 180-2000 | 2000 | 400-2000 |
-| Average Price (Wh/dollar) | 3-4 | $$$ | 3-24 | 3-4 |
+| Average Price (Wh/dollar) | 2-4 | 1-3 | 3-4 | 3-4 |
 
 ## Charging LiPo Batteries
 This section will step you through using the Turnigy chargers in the lab to charge LiPo batteries. Although you may be using a different type of battery, the general controls of the instrument will be the same.
