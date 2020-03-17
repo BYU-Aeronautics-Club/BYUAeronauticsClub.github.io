@@ -17,7 +17,7 @@ Thursdays at 5pm in EB 112
 Email: byuaeronautics@gmail.com
 
 ### Sign Up for Weekly Emails:
-[Sign Up](#http://eepurl.com/do8S9T){: .btn .btn--info}
+[Sign Up](<http://eepurl.com/do8S9T>){: .btn .btn--info}
 
 ### Club Payments Page:
-[Pay](#https://commerce.cashnet.com/webcaroc){: .btn .btn--info}
+[Pay](<https://commerce.cashnet.com/webcaroc>){: .btn .btn--info}
