@@ -16,7 +16,7 @@ Thursdays at 5pm in EB 112
 ### Contact Us:
 Email: byuaeronautics@gmail.com
 
-[Facebook Message](<facebook.com/BYUAeronautics>){: .btn .btn--info}
+[Facebook Message](<http://facebook.com/BYUAeronautics>){: .btn .btn--info}
 
 ### Sign Up for Weekly Emails:
 [Sign Up](<http://eepurl.com/do8S9T>){: .btn .btn--info}
