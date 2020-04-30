@@ -27,18 +27,32 @@ leadership_row:
   - title: "Student Leadership"
 
 leadership_row2:
-  - image_path: /assets/images/Justin_410.jpg
+  - image_path: /assets/images/Adam_H.jpeg
     alt: "President"
     title: "President"
-    excerpt: "Justin Spencer"
-  - image_path: /assets/images/Adam_340.jpg
-    alt: "Vice President"
-    title: "Vice President"
     excerpt: "Adam Hale"
-  - image_path: /assets/images/Adam_W_400.jpg
-    alt: "Secretary"
-    title: "Secretary"
+  - image_path: /assets/images/Mark.jpg
+    alt: "Councilor"
+    title: "Councilor"
+    excerpt: "Mark Anderson"
+  - image_path: /assets/images/Ethan_G.jpg
+    alt: "Councilor"
+    title: "Councilor"
+    excerpt: "Ethan Gardner"
+    
+leadership_row3:
+  - image_path: /assets/images/Allison_J.png
+    alt: "Assets Manager"
+    title: "Assets Manager"
+    excerpt: "Allison Johnson"
+  - image_path: /assets/images/Adam_W.jpg
+    alt: "Student Instructor"
+    title: "Student Instructor"
     excerpt: "Adam Wangeman"
+  - image_path: /assets/images/Will_N.jpg
+    alt: "Photographer"
+    title: "Photographer"
+    excerpt: "Will Newbold"
     
 ---
 
@@ -46,4 +60,7 @@ leadership_row2:
 
 {% include feature_row id="leadership_row" type="center" %}
 
-{% include feature_row id="leadership_row2" type="left" %}
+{% include feature_row id="leadership_row2" type="center" %}
+
+{% include feature_row id="leadership_row3" type="center" %}
+
