@@ -58,9 +58,9 @@ leadership_row3:
 
 {% include feature_row %}
 
-{% include feature_row id="leadership_row" type="center" %}
+{% include feature_row id="leadership_row" %}
 
-{% include feature_row id="leadership_row2" type="center" %}
+{% include feature_row id="leadership_row2" %}
 
-{% include feature_row id="leadership_row3" type="center" %}
+{% include feature_row id="leadership_row3" %}
 
