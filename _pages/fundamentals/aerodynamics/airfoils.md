@@ -16,7 +16,7 @@ To start, let's discuss the different parts of an airfoil. As you can see below,
 ### NACA Airfoils
 The NACA four-digit series provides a convenient way to demonstrate some additional airfoil parameters. Each digit describes a different paramter of the airfoil. Let's use the NACA 4412 airfoil as an example. The first two digits describe the placement and 
 
-![NACA Stuff](./figures/geometry1.JPG)
+![NACA Stuff](./figures/NACA1.JPG)
 
 ## Lift and Drag Performance
 
