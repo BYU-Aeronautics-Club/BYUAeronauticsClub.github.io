@@ -18,9 +18,12 @@ The NACA four-digit series provides a convenient way to demonstrate some additio
 
 ![NACA Stuff](./figures/NACA1.JPG)
 
-To explain camber, we refer to the diagram above. The camber line lies exactly (vertically) between the upper and lower surfaces of the airfoil at any point. Camber is the relative distance between the chord line and camber line, measured in chords.
+To explain camber, we refer to the diagram above. The camber line lies exactly (vertically) between the upper and lower surfaces of the airfoil at any point. Camber is the relative distance between the chord line and camber line, measured in chords. Generally, a more cambered airfoil will provide more lift with decreased aerodynamic stability.
 
 ## Lift and Drag Performance
+One of the most important considerations when selecting an airfoil is the lift and drag characteristics. These and a few other metrics will indicate the airfoil's performance. We will focus first on lift. Keep in mind that with airfoils we are calculating a theoretical coefficient of lift (Cl).
+
+![Lift Polar](./figures/
 
 ## Other Considerations
 Like most design decisions for a UAV, there are tradeoffs in selecting an airfoil.
