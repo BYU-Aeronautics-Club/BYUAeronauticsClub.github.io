@@ -25,9 +25,13 @@ One of the most important considerations when selecting an airfoil is the lift a
 
 ![Cl Equation](./figures/Cl_formula.JPG){: .align-center}
 
-There are a few key characteristics you are looking for that will be shown on your lift and drag polars. Let's look at the polar that plots the coefficient of lift as a function of angle of attack (α) for various airfoils. The first thing you should notice is that certain airfoils have a higher peak, or maximum coefficient of lift. 
+There are a few key characteristics you are looking for that will be shown on your lift and drag polars. Let's look at the polar that plots the coefficient of lift as a function of angle of attack (α) for various airfoils. The first thing you should notice is the general shape of the polar. There is at first a linear relationship between the Cl and angle of attack. As you increase the angle of the airfoil relative to free flow, the coefficient of lift will increase with a slope of about 2π (Cl/α in radians). At around 10-12 degrees, the airfoil begins to stall, meaning that large amounts of drag are beginning to occur and lift is being lost. This is represented on the polar by a peak and eventual downward curve. 
 
 ![Cl alpha polar](./figures/cl_alpha_plot.JPG)
+
+Some airfoils have a higher peak than others, signifying a higher maximum Cl. This is advantageous because it allows the UAV to take off with smaller lifting surfaces and increases overall aerodynamic efficiency. Here, the airfoil represented by the pink line obviously has the highest Cl max (about 1.6). Another interesting feature is the shape of the peak. A gentler downward curve represents an airfoil with a more forgiving stall development. For example, lift will be lost more gradually on the airfoil represented by the golden line than the red line, which drops sharply and will lose lift very quickly after beginning to stall at Cl max.
+
+Let's take a look at another polar. This one shows the coefficient of drag (Cd) as a function of angle of attack. 
 
 ## Other Considerations
 Like most design decisions for a UAV, there are tradeoffs in selecting an airfoil.
