@@ -18,6 +18,7 @@ Another important compontent of a LiPo battery is its discharge rate, or C ratin
 When caring for LiPo batteries, it is important to maintain each cell within a certain voltage range. Chargers with LiPo battery charging capabilities will have a balance cable that allows the charger to charge each cell at the same rate, maintaining the same general voltage level. This is important in charging and discharge to preserve the stability of the battery. In general, each cell should also remain within a 3.6V-4.2V range. In any case, you should NEVER allow a cell to reach below 3.0V. Doing so will result in severe shortening of the cell's life cycle. When not in use, batteries should be stored at 3.7V per cell. This provides the longest lifespan. When LiPos reach the end of their life cycle or are misused, they tend to puff up. This is a tell-tale sign that you should consider disposing of them. This should be done using safety guidelines outlined by local laws and ordinances.
 
 ### Nickel Metal Hydride Batteries
+Nickel Metal Hydride batteries are the worst.
 
 ### Lithium Iron Batteries
 
