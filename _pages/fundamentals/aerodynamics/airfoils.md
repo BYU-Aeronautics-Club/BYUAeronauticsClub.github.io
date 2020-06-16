@@ -33,6 +33,8 @@ Some airfoils have a higher peak than others, signifying a higher maximum Cl. Th
 
 Let's take a look at another polar. This one shows the coefficient of drag (Cd) as a function of angle of attack. 
 
+![cd_alpha_plot](./figures/cd_alpha_plot.JPG)
+
 ## Other Considerations
 Like most design decisions for a UAV, there are tradeoffs in selecting an airfoil.
 
