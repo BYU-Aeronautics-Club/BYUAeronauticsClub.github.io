@@ -5,7 +5,7 @@ layout: single
 sidebar:
     nav: "tutorials"
 ---
-Many modern UAVs use electronic propulsion and control systems, as opposed to the older gas-propelled systems. Such a system requires power, namely in the form of a battery. The preferred battery type in the Aeronautics Club is the Lithium Polymer battery. This is due mainly to its relatively high energy density and discharge capability. That being said, the main focus of this page will be on LiPo batteries, but care and use of other batteries will be covered.
+Many modern UAVs use electronic propulsion and control systems, as opposed to the older gas-propelled systems. These systems are powered by electronic batteries. The preferred battery type in the Aeronautics Club is the Lithium Polymer battery. This is due mainly to its relatively high energy density and discharge capability. That being said, the main focus of this page will be on LiPo batteries, but care and use of other batteries will be covered.
 
 ## Battery Types
 Although we primarily use LiPo batteries, there a few different battery types in popular use in the model aviation world. These include Lithium Polymer (LiPo), Nickel Metal Hydride (NiMH), Lithiu Iron (LiFe), and Lithium-ion (LI). There are various tradeoffs associated with selecting one battery over another including ease of use, energy density, capabilities, and lifespan. Cost and availability should also be considered. We will conduct a brief overview of each and their various characteristics.
