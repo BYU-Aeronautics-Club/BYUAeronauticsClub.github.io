@@ -42,7 +42,7 @@ This last polar is more concerned with the general stability of the airfoil. Her
 ## Comparing Airfoils
 When selecting an airfoil, it is useful to compare at least 10-15 different airfoils to have sufficient numbers for a good selection. This can be done using XFLR5's airfoil direct analysis feature or another program. It is good practice to create plots with an angle of attack ranging from -4 to 16. Some airfoils may require a larger range to see the full curve before the stall point is reached. 
 
-One additional consideration that should be made is the general shape and curvature of the airfoil. If lift and drag characteristics alone are considered, you may be stuck with an airfoil that is thin, curvy, and difficult to manufacture. A thin airfoil will often be difficult to create with the foam cutter, and will experience frequent breakage. As an example, let us consider the two airfoils below. In this case, the DAE-31 airfoil has a higher Cl max and better stall and drag characteristics. The NACA 4412 airfoil has somewhat comparable characteristics, but is significantly thicker and easier to manufacture. This makes it the preferred selection in most cases for small UAVs.
+One additional consideration that should be made is the general shape and curvature of the airfoil. If lift and drag characteristics alone are considered, you may be stuck with an airfoil that is thin, curvy, and difficult to manufacture. A thin airfoil will often be difficult to create with the foam cutter, and will experience frequent breakage. As an example, let us consider the two airfoils below. In this case, the DAE-31 airfoil has a higher Cl max and better stall and drag characteristics. The NACA 4412 airfoil has somewhat comparable characteristics, but is significantly thicker (especially at the trailing edge) and easier to manufacture. This makes it the preferred selection in most cases for small UAVs.
 
 ![DAE 31](./figures/DAE31_shape.PNG) ![NACA 4412](./figures/NACA_4412_shape.PNG)
 
@@ -50,4 +50,52 @@ One additional consideration that should be made is the general shape and curvat
 When it comes to getting data for UAV airfoils, the [UIUC database](https://m-selig.ae.illinois.edu/ads/coord_database.html) is likely the best public resource available. It boasts a collection of over 1,500 different airfoils with various characteristics and applications. You can view plots of the different airfoil shapes as well as download a text file containing the data itself (typically 50-100 points). Many of the airfoils appropriate for small UAVs are labeled "low Reynolds number airfoil". This essentially means that they are designed for aircraft that fly at relatively low speeds. A couple of good series to begin looking at are the Eppler and Selig series. 
 
 ## Formatting Airfoil files for XLFR5
-In order to be able upload airfoil data files to XFLR5 for analysis, there is a specific format that the data points need to be in. 
+In order to be able upload airfoil data files to XFLR5 for analysis, there is a specific format that the data points need to be in. Take a quick look at the above airfoil plots again. Notice the normalized coordinates. In XFLR5, an airfoil must be plotted starting at the trailing edge (x = 1), go over the top to the leading edge (x = 0), then curve back around the bottom and end at the trailing edge again. Many of the airfoils in the UIUC database are already formatted this way, but some need to be switched around a bit. The ideas covered here are specifically for Windows users, but will have relevance to students using Macs. Let's look at a typical mixup situation, as shown below.
+
+'''
+0.000000  0.000000
+0.012500  0.019300
+0.025000  0.031700
+0.050000  0.051300
+0.075000  0.066400
+0.100000  0.078000
+0.150000  0.093400
+0.200000  0.101300
+0.250000  0.104400
+0.300000  0.104800
+0.400000  0.100200
+0.500000  0.090500
+0.600000  0.077100
+0.700000  0.061000
+0.800000  0.042800
+0.900000  0.022900
+0.950000  0.012400
+1.000000  0.001600
+
+0.000000  0.000000
+0.012500  -0.005000
+0.025000  -0.004200
+0.050000  -0.001000
+0.075000  0.002800
+0.100000  0.006800
+0.150000  0.014500
+0.200000  0.021700
+0.250000  0.028200
+0.300000  0.033300
+0.400000  0.038500
+0.500000  0.038600
+0.600000  0.035000
+0.700000  0.028600
+0.800000  0.020200
+0.900000  0.010000
+0.950000  0.004400
+1.000000  -0.001600
+'''
+
+Notice that the points begin at the leading edge, move over the top to the trailing edge, and then jump back to the front to do the bottom. Not only will this result in a line right through the middle of the airfoil, but XFLR5 will be unable to work with the data file for analysis. The first thing you want to do is copy the data points from the text file given on the UIUC site, and then paste them into an Excel spreadsheet. At first, all of the data will be in one column. In order to easily rearrange the data, we need to split it into two columns. This can be done using the **Text to Columns** function under the "Data" tab. Under the data type, select "Delimited", then push "Next". Since this data is space delimited, check the box for "Space" and then click "Finish". With a few minor adjustments, your data should be in two columns now.
+
+![Text to Columns](./figures/text_to_columns.JPG)
+
+The next step is to sort the first section that goes over the top. We want this to go from back to front instead of front to back. This can be done using the **Sort** function, also under the "Data" tab. Highlight the first section, then click the button to sort. You will want to sort by Column A (which is the x positions) from "Largest to Smallest", then click "OK". Your data should now match up with zeros in the middle. Go ahead and delete any empty rows and the extra row of zeros. Your data is now properly ordered. As a last step, we need to put the data points into a DAT file type. To do so, copy the data from Excel into a text editor such as Notepad, and then click File>>Save As. Go ahead and name your file, making sure to change the file type dropdown to "All Files". Then simply put ".dat" at the end of your file name and save. Now your airfoil is ready to be uploaded to XFLR5!
+
+![Data File Save](./figures/data_file_save.JPG)
