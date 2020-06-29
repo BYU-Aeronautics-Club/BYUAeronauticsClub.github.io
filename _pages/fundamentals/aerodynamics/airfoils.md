@@ -96,6 +96,10 @@ Notice that the points begin at the leading edge, move over the top to the trail
 
 ![Text to Columns](./figures/text_to_columns.JPG)
 
-The next step is to sort the first section that goes over the top. We want this to go from back to front instead of front to back. This can be done using the **Sort** function, also under the "Data" tab. Highlight the first section, then click the button to sort. You will want to sort by Column A (which is the x positions) from "Largest to Smallest", then click "OK". Your data should now match up with zeros in the middle. Go ahead and delete any empty rows and the extra row of zeros. Your data is now properly ordered. As a last step, we need to put the data points into a DAT file type. To do so, copy the data from Excel into a text editor such as Notepad, and then click File>>Save As. Go ahead and name your file, making sure to change the file type dropdown to "All Files". Then simply put ".dat" at the end of your file name and save. Now your airfoil is ready to be uploaded to XFLR5!
+The next step is to sort the first section that goes over the top. We want this to go from back to front instead of front to back. This can be done using the **Sort** function, also under the "Data" tab. Highlight the first section, then click the button to sort. You will want to sort by Column A (which is the x positions) from "Largest to Smallest", then click "OK". Your data should now match up with zeros in the middle. Go ahead and delete any empty rows and the extra row of zeros. Your data is now properly ordered. 
 
-![Data File Save](./figures/data_sort.JPG)
+![Data Sort](./figures/data_sort.JPG)
+
+As a last step, we need to put the data points into a DAT file type. To do so, copy the data from Excel into a text editor such as Notepad, and then click File>>Save As. Go ahead and name your file, making sure to change the file type dropdown to "All Files". Then simply put ".dat" at the end of your file name and save. Now your airfoil is ready to be uploaded to XFLR5!
+
+![Data File Save](./figures/data_file_save.JPG)
