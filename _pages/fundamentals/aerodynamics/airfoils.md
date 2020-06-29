@@ -52,7 +52,7 @@ When it comes to getting data for UAV airfoils, the [UIUC database](https://m-se
 ## Formatting Airfoil files for XLFR5
 In order to be able upload airfoil data files to XFLR5 for analysis, there is a specific format that the data points need to be in. Take a quick look at the above airfoil plots again. Notice the normalized coordinates. In XFLR5, an airfoil must be plotted starting at the trailing edge (x = 1), go over the top to the leading edge (x = 0), then curve back around the bottom and end at the trailing edge again. Many of the airfoils in the UIUC database are already formatted this way, but some need to be switched around a bit. The ideas covered here are specifically for Windows users, but will have relevance to students using Macs. Let's look at a typical mixup situation, as shown below.
 
-'''
+```
 0.000000  0.000000
 0.012500  0.019300
 0.025000  0.031700
@@ -90,7 +90,7 @@ In order to be able upload airfoil data files to XFLR5 for analysis, there is a 
 0.900000  0.010000
 0.950000  0.004400
 1.000000  -0.001600
-'''
+```
 
 Notice that the points begin at the leading edge, move over the top to the trailing edge, and then jump back to the front to do the bottom. Not only will this result in a line right through the middle of the airfoil, but XFLR5 will be unable to work with the data file for analysis. The first thing you want to do is copy the data points from the text file given on the UIUC site, and then paste them into an Excel spreadsheet. At first, all of the data will be in one column. In order to easily rearrange the data, we need to split it into two columns. This can be done using the **Text to Columns** function under the "Data" tab. Under the data type, select "Delimited", then push "Next". Since this data is space delimited, check the box for "Space" and then click "Finish". With a few minor adjustments, your data should be in two columns now.
 
