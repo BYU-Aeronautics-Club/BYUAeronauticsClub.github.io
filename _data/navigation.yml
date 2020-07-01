@@ -78,6 +78,8 @@ fundamentals:
     children:
       - title: "Airfoils"
         url: /fundamentals/aerodynamics/airfoils/
+      - title: "Fluid Mechanics"
+        url: /fundamentals/aerodynamics/fluids/
 
 tutorials:
   - title: "Propulsion Systems"
