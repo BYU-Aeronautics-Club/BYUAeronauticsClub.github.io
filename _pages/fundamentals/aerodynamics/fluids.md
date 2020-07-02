@@ -22,12 +22,12 @@ As a fluid flows past a solid, the boundary layer "sticks" to the surface, creat
 
 Within the boundary layer, one of the main forces being dealt with is shear stress. This is essentially a force acting parallel to the surface whose magnitude depends on the rate at which the velocity is changing and properties of the fluid present. In the equation below, τ is the shear stress, µ is the dynamic viscosity of the fluid, u is the fluid velocity relative to the surface, and y is the perpendicular distance from the surface. As you can see, an increase in the rate at which the velocity changes with position would result in an increase in shear stress. This in turn causes an increase in parasitic drag on the airplane, which is comprised of skin friction and pressure drag. Further discussion on types of drag can be found in the section on performance.
 
-![Shear equation](./figures/shear_equation.JPG)
+![Shear equation](./figures/shear_equation.JPG){: .align-center}
 
 ### Laminar and Turbulent Flow
-To delay boundary layer separation, it is desirable to maintain a laminar boundary layer for a portion of the airfoil, and then allow a transition to turbulent. Whether a fluid flow is laminar or turbulent depends upon a few different factors that are related in what is called the Reynolds number. The Reynolds number is a nondimensional parameter that is, on a fundamental level, the ratio of intertial to viscous forces in a fluid. In the equation below, &#x03C1; $\rho$ is the density of the fluid, u is the velocity, d is the characteristic length (chord for airfoils, mean aerodynamic chord for wings), and µ is again the dynamic viscosity. 
+To delay boundary layer separation, it is desirable to maintain a laminar boundary layer for a portion of the airfoil, and then allow a transition to turbulent. Whether a fluid flow is laminar or turbulent depends upon a few different factors that are related in what is called the Reynolds number. The Reynolds number is a nondimensional parameter that is, on a fundamental level, the ratio of intertial to viscous forces in a fluid. In the equation below, &#x03C1; is the density of the fluid, u is the velocity, d is the characteristic length (chord for airfoils, mean aerodynamic chord for wings), and µ is again the dynamic viscosity. 
 
-![Reynolds Equation](./figures/reynolds_equation.JPG)
+![Reynolds Equation](./figures/reynolds_equation.JPG){: .align-center}
 
 A smaller Reynolds number indicates that the flow is laminar, meaning it is steady, smooth, and mixes very little through intermolecular forces. A larger Reynolds number indicates that the flow is turbulent, meaning it is unsteady, disordered, and mixes rapidly. For external flow, the transition from laminar to turbulent flow occurs at a value of around 500,000. 
 
