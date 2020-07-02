@@ -76,10 +76,13 @@ f3k:
 fundamentals:
   - title: "Aerodynamics"
     children:
-      - title: "Airfoils"
-        url: /fundamentals/aerodynamics/airfoils/
       - title: "Fluid Mechanics"
         url: /fundamentals/aerodynamics/fluids/
+      - title: "Airfoils"
+        url: /fundamentals/aerodynamics/airfoils/
+      - title: "XFLR5"
+        url: /fundamentals/aerodynamics/xflr5/
+      
 
 tutorials:
   - title: "Propulsion Systems"
@@ -96,5 +99,3 @@ tutorials:
     children:
       - title: "Adding Tutorials"
         url: /tutorials/misc/addingsitecontent/
-      - title: "XFLR5"
-        url: /tutorials/misc/xflr5/
