@@ -3,7 +3,7 @@ permalink: /fundamentals/aerodynamics/xflr5/
 title: "Using XFLR5"
 layout: single
 sidebar:
-    nav: "tutorials"
+    nav: "fundamentals"
 ---
 
 XFLR5 is an incredibly useful (and free!) tool for aerodynamic analysis on small UAVs, such as those used in the club. We won't go into the details of the inner workings here, but suffice it to say that a number of assumptions are made in the root analysis coding that only work for this class of plane. It can be used to analyze airfoils, stability, component sizing, and a number of other features to help you nail down your plane design. The program is updated regularly and the author has provided video tutorials of its various features, found in the links below.
