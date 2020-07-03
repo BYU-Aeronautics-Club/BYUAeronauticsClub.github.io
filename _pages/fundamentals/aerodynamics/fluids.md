@@ -29,9 +29,10 @@ To delay boundary layer separation, it is desirable to maintain a laminar bounda
 
 ![Reynolds Equation](./figures/reynolds_equation.JPG){: .align-center}
 
-A smaller Reynolds number indicates that the flow is laminar, meaning it is steady, smooth, and mixes very little through intermolecular forces. A larger Reynolds number indicates that the flow is turbulent, meaning it is unsteady, disordered, and mixes rapidly. For external flow, the transition from laminar to turbulent flow occurs at a value of around 500,000. 
+A smaller Reynolds number indicates that the flow is laminar, meaning it is steady, smooth, and mixes very little through intermolecular forces. A larger Reynolds number indicates that the flow is turbulent, meaning it is unsteady, disordered, and mixes rapidly. For external flow, the transition from laminar to turbulent flow occurs at a value of around 500,000. A typical small UAV will operate with a Reynolds number on the order of 10,000. For flow around an airfoil, both types of flow will be present.
 
 ## Airfoils in Fluids
+
 
 ### The Bernoulli Equation
 
