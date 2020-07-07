@@ -35,7 +35,15 @@ A smaller Reynolds number indicates that the flow is laminar, meaning it is stea
 An essential characteristic about fixed-wing UAVs is their ability to produce lift almost entirely from their shape. This is accomplished by the thin, cambered profile of the airfoils used in the lifting surfaces. This happens 
 
 ### The Bernoulli Equation
-The fundamental governing equation of fluid mechanics is referred to as the Navier-Stokes Equation. This equation cannot be solved analytically, so a number of assumptions can be made under certain circumstances to produce the Bernoulli Equation. They are listed below:
+The fundamental governing equation of fluid mechanics is referred to as the Navier-Stokes Equation. This equation cannot be solved analytically, so a number of assumptions can be made under certain circumstances to produce the Bernoulli Equation. The assumptions are as follows:
 
+1. Steady flow
+2. Incompressible fluid
+3. No heat transfer
+4. Streamlines
+5. Inviscid fluid
+6. No work is being done
+
+These assumptions can be loosely true for a small UAV, or at least inconsequential enough that the assumption can be made. 
 
 ### Lift and Drag
