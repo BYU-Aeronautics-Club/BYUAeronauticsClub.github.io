@@ -4,6 +4,9 @@ title: "Airfoils"
 layout: single
 sidebar:
     nav: "fundamentals"
+gallery:
+  - image_path: _pages/fundamentals/aerodynamics/figures/DAE31_shape.PNG
+  - image_path: _pages/fundamentals/aerodynamics/figures/NACA_4412_shape.PNG
 ---
 
 Airfoil selection is one of the earliest and most important decisions made when desiging your UAV. The airfoil will play a large role in determining its aerodynamic performance characteristics and capabilities. As such, care should be taken to choose an airfoil that properly meets the performance requirements for your mission. Relevant requirements may relate to stability, lift and drag characteristics, and manufacturability. These and other important concepts will be discussed.
@@ -44,7 +47,7 @@ When selecting an airfoil, it is useful to compare at least 10-15 different airf
 
 One additional consideration that should be made is the general shape and curvature of the airfoil. If lift and drag characteristics alone are considered, you may be stuck with an airfoil that is thin, curvy, and difficult to manufacture. A thin airfoil will often be difficult to create with the foam cutter, and will experience frequent breakage. As an example, let us consider the two airfoils below. In this case, the DAE-31 airfoil has a higher Cl max and better stall and drag characteristics. The NACA 4412 airfoil has somewhat comparable characteristics, but is significantly thicker (especially at the trailing edge) and easier to manufacture. This makes it the preferred selection in most cases for small UAVs.
 
-![DAE 31](./figures/DAE31_shape.PNG) ![NACA 4412](./figures/NACA_4412_shape.PNG)
+{% include gallery id="gallery" class="full" %}
 
 ## The UIUC Airfoil Database
 When it comes to getting data for UAV airfoils, the [UIUC database](https://m-selig.ae.illinois.edu/ads/coord_database.html) is likely the best public resource available. It boasts a collection of over 1,500 different airfoils with various characteristics and applications. You can view plots of the different airfoil shapes as well as download a text file containing the data itself (typically 50-100 points). Many of the airfoils appropriate for small UAVs are labeled "low Reynolds number airfoil". This essentially means that they are designed for aircraft that fly at relatively low speeds. A couple of good series to begin looking at are the Eppler and Selig series. 
