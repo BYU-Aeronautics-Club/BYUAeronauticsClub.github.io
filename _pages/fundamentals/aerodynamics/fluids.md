@@ -25,15 +25,17 @@ Within the boundary layer, one of the main forces being dealt with is shear stre
 ![Shear equation](./figures/shear_equation.JPG){: .align-center}
 
 ### Laminar and Turbulent Flow
-To delay boundary layer separation, it is desirable to maintain a laminar boundary layer for a portion of the airfoil, and then allow a transition to turbulent. Whether a fluid flow is laminar or turbulent depends upon a few different factors that are related in what is called the Reynolds number. The Reynolds number is a nondimensional parameter that is, on a fundamental level, the ratio of intertial to viscous forces in a fluid. In the equation below, &#x03C1; is the density of the fluid, u is the velocity, d is the characteristic length (chord for airfoils, mean aerodynamic chord for wings), and µ is again the dynamic viscosity. 
+To delay boundary layer separation, it is desirable to maintain a laminar boundary layer for a portion of the airfoil, and then allow a transition to turbulent. Whether a fluid flow is laminar or turbulent depends upon a few different factors that are related in what is called the Reynolds number. The Reynolds number is a nondimensional parameter that is, on a fundamental level, the ratio of intertial to viscous forces in a fluid. In the equation below, &#x03C1; is the density of the fluid, v is the velocity, d is the characteristic length (chord for airfoils, mean aerodynamic chord for wings), and µ is again the dynamic viscosity. 
 
 ![Reynolds Equation](./figures/reynolds_equation.JPG){: .align-center}
 
 A smaller Reynolds number indicates that the flow is laminar, meaning it is steady, smooth, and mixes very little through intermolecular forces. A larger Reynolds number indicates that the flow is turbulent, meaning it is unsteady, disordered, and mixes rapidly. For external flow, the transition from laminar to turbulent flow occurs at a value of around 500,000. A typical small UAV will operate with a Reynolds number on the order of 10,000. For flow around an airfoil, both types of flow will be present.
 
 ## Airfoils in Fluids
-
+An essential characteristic about fixed-wing UAVs is their ability to produce lift almost entirely from their shape. This is accomplished by the thin, cambered profile of the airfoils used in the lifting surfaces. This happens 
 
 ### The Bernoulli Equation
+The fundamental governing equation of fluid mechanics is referred to as the Navier-Stokes Equation. This equation cannot be solved analytically, so a number of assumptions can be made under certain circumstances to produce the Bernoulli Equation. They are listed below:
+
 
 ### Lift and Drag
