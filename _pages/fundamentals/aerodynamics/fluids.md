@@ -32,18 +32,23 @@ To delay boundary layer separation, it is desirable to maintain a laminar bounda
 A smaller Reynolds number indicates that the flow is laminar, meaning it is steady, smooth, and mixes very little through intermolecular forces. A larger Reynolds number indicates that the flow is turbulent, meaning it is unsteady, disordered, and mixes rapidly. For external flow, the transition from laminar to turbulent flow occurs at a value of around 500,000. A typical small UAV will operate with a Reynolds number on the order of 10,000. For flow around an airfoil, both types of flow will be present.
 
 ## Airfoils in Fluids
-An essential characteristic about fixed-wing UAVs is their ability to produce lift almost entirely from their shape. This is accomplished by the thin, cambered profile of the airfoils used in the lifting surfaces. This happens 
+An essential characteristic about fixed-wing UAVs is their ability to produce lift almost entirely from their shape. This is accomplished by the thin, cambered profile of the airfoils used in the lifting surfaces. An airfoil's shape produces lift due to some important principles of fluid flow that can be measured with reasonable accuracy by the Bernoulli Equation.
 
 ### The Bernoulli Equation
 The fundamental governing equation of fluid mechanics is referred to as the Navier-Stokes Equation. This equation cannot be solved analytically, so a number of assumptions can be made under certain circumstances to produce the Bernoulli Equation. The assumptions are as follows:
 
-1. Steady flow
-2. Incompressible fluid
+1. Steady flow 
+2. Incompressible fluid 
 3. No heat transfer
 4. Streamlines
-5. Inviscid fluid
+5. Inviscid flow
 6. No work is being done
 
-These assumptions can be loosely true for a small UAV, or at least inconsequential enough that the assumption can be made. 
+These assumptions can be loosely true for a small UAV, or at least inconsequential enough that the assumption can be made. Let's go over a few of the less obvious assumptions. We are assuming that the air around the UAV is incompressible. Although some compression is likely taking place, compressibility drag doesn't become significant until about Mach 0.7. Streamlines are lines of fluid flow around an object, along which the Bernoulli Equation can be applied. Although it is not fully accurate to say the flow is inviscid (this would eliminate all viscous drag), we will still make this assumption to use the Bernoulli Equation. These assumptions and the others listed allow us to use the equation below for calculating properties of a fluid around an airfoil. For this equation, V is the local velocity, P is the local pressure, &#x03C1; is the fluid's density, g is the gravitational constant, and z is the local vertical position. 
+
+![Bernoulli Equation](./figures/bernoulli_equation.JPG){: .align-center}
 
 ### Lift and Drag
+The Bernoulli Equation allows us to compare properties at different points along a streamline. This can be done around an airfoil, allowing us to determine a few important facts. When air flows over the top of an airfoil, we see a slight increase in vertical position and velocity, but a decrease in pressure. The exact opposite is true along the bottom of the airfoil, but to a lesser magnitude. This creates a net upward pressure gradient that produces what we refer to as lift. In the case of a symmetric airfoil (in level flight), the pressure change on each side is equal and opposite, creating a net zero pressure gradient and therefore no lift. 
+
+
