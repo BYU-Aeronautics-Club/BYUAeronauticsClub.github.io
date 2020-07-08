@@ -48,7 +48,16 @@ These assumptions can be loosely true for a small UAV, or at least inconsequenti
 
 ![Bernoulli Equation](./figures/bernoulli_equation.JPG){: .align-center}
 
-### Lift and Drag
+### Lift
 The Bernoulli Equation allows us to compare properties at different points along a streamline. This can be done around an airfoil, allowing us to determine a few important facts. When air flows over the top of an airfoil, we see a slight increase in vertical position and velocity, but a decrease in pressure. The exact opposite is true along the bottom of the airfoil, but to a lesser magnitude. This creates a net upward pressure gradient that produces what we refer to as lift. In the case of a symmetric airfoil (in level flight), the pressure change on each side is equal and opposite, creating a net zero pressure gradient and therefore no lift. 
+
+The lift vector is, by definition, perpendicular to the free stream (not necessarily to the airfoil itself). This puts lift in direct opposition to gravity under normal conditions. As the angle of attack is increased, the net upward pressure gradient increases, producing more lift. At higher angles of attack (typically about 12-15°) the airfoil begins to stall and lose lift. This occurs due to the boundary layer separating earlier along the airfoil due to viscous effects. The depiction below shows the streamlines around an inclined airfoil near stall. Notice that the wake behind the airfoil also becomes quite large, increasing drag and decreasing overall energy efficiency. 
+
+![Tilted Airfoil](./figures/tilted_airfoil.JPG)
+
+### Drag
+In contrast to the lifting force, drag is defined as being parallel to the free stream. 
+
+
 
 
