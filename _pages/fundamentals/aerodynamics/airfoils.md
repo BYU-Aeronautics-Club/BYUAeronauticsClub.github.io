@@ -44,7 +44,7 @@ When selecting an airfoil, it is useful to compare at least 10-15 different airf
 
 One additional consideration that should be made is the general shape and curvature of the airfoil. If lift and drag characteristics alone are considered, you may be stuck with an airfoil that is thin, curvy, and difficult to manufacture. A thin airfoil will often be difficult to create with the foam cutter, and will experience frequent breakage. As an example, let us consider the two airfoils below. In this case, the DAE-31 airfoil has a higher Cl max and better stall and drag characteristics. The NACA 4412 airfoil has somewhat comparable characteristics, but is significantly thicker (especially at the trailing edge) and easier to manufacture. This makes it the preferred selection in most cases for small UAVs.
 
-![D31 Shape](./figures/DAE31_shape.PNG) ![NACA Shape](NACA_4412_shape.PNG)
+![D31 Shape](./figures/DAE31_shape.PNG) ![NACA Shape](./figures/NACA_4412_shape.PNG)
 
 ## The UIUC Airfoil Database
 When it comes to getting data for UAV airfoils, the [UIUC database](https://m-selig.ae.illinois.edu/ads/coord_database.html) is likely the best public resource available. It boasts a collection of over 1,500 different airfoils with various characteristics and applications. You can view plots of the different airfoil shapes as well as download a text file containing the data itself (typically 50-100 points). Many of the airfoils appropriate for small UAVs are labeled "low Reynolds number airfoil". This essentially means that they are designed for aircraft that fly at relatively low speeds. A couple of good series to begin looking at are the Eppler and Selig series. 
