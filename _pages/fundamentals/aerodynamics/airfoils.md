@@ -33,19 +33,19 @@ Some airfoils have a higher peak than others, signifying a higher maximum Cl. Th
 
 Let's take a look at another polar. This one shows the coefficient of lift (Cl) as a function of the coefficient of drag (Cd). This is useful mostly in helping us to determine the maximum lift over drag ratio, or L/D. If you draw a straight line from the origin upward, then pivot it until it touches the polar, the slope is the airfoil's theoretical maximum L/D. The lift over drag ratio is a common way to determine the optimum flight scenario for your UAV because it provides the highest efficiency in terms of lift and drag. Other performance concepts will be discussed elsewhere.
 
-{% include figure image_path="_pages/fundamentals/aerodynamics/figures/cl_cd_plot.JPG" caption="Figure 4: Coefficient of lift for various airfoils in relation to the coefficient of drag" %}
+{% include figure image_path="_pages/fundamentals/aerodynamics/figures/cl_cd_plot.JPG" caption="Figure 4: Coefficient of lift for various airfoils in relation to the coefficient of drag." %}
 
 This last polar is more concerned with the general stability of the airfoil. Here, we plot the coefficient of the pitching moment (Cm) as a function of the angle of attack. Notice that all of the lines are generally flat, but have varying magnitudes. This magnitude has to do with the general lateral stability of the airfoil. A higher magnitude will result in a less stable airfoil, but is usually accompanied by better lifting capabilities. In any case, this data should be used as more of a tie-breaker when selecting an airfoil rather than a key requirement.
 
-{% include figure image_path="_pages/fundamentals/aerodynamics/figures/cm_alpha_plot.JPG" caption="Figure 5: Coefficient of pitching moment of various airfoils at different angles of attack" %}
+{% include figure image_path="_pages/fundamentals/aerodynamics/figures/cm_alpha_plot.JPG" caption="Figure 5: Coefficient of pitching moment of various airfoils at different angles of attack." %}
 
 ## Comparing Airfoils
 When selecting an airfoil, it is useful to compare at least 10-15 different airfoils to have sufficient numbers for a good selection. This can be done using XFLR5's airfoil direct analysis feature or another program. It is good practice to create plots with an angle of attack ranging from -4 to 16. Some airfoils may require a larger range to see the full curve before the stall point is reached. 
 
 One additional consideration that should be made is the general shape and curvature of the airfoil. If lift and drag characteristics alone are considered, you may be stuck with an airfoil that is thin, curvy, and difficult to manufacture. A thin airfoil will often be difficult to create with the foam cutter, and will experience frequent breakage. As an example, let us consider the two airfoils below. In this case, the DAE-31 airfoil has a higher Cl max and better stall and drag characteristics. The NACA 4412 airfoil has somewhat comparable characteristics, but is significantly thicker (especially at the trailing edge) and easier to manufacture. This makes it the preferred selection in most cases for small UAVs.
 
-{% include figure image_path="_pages/fundamentals/aerodynamics/figures/DAE31_shape.PNG" caption="Figure 6: Normalized plot of the DAE-31 airfoil" %}
-{% include figure image_path="_pages/fundamentals/aerodynamics/figures/NACA_4412_shape.PNG" caption="Figure 7: Normalized plot of the NACA 4412 airfoil" %}
+{% include figure image_path="_pages/fundamentals/aerodynamics/figures/DAE31_shape.PNG" caption="Figure 6: Normalized plot of the DAE-31 airfoil." %}
+{% include figure image_path="_pages/fundamentals/aerodynamics/figures/NACA_4412_shape.PNG" caption="Figure 7: Normalized plot of the NACA 4412 airfoil." %}
 
 ## The UIUC Airfoil Database
 When it comes to getting data for UAV airfoils, the [UIUC database](https://m-selig.ae.illinois.edu/ads/coord_database.html) is likely the best public resource available. It boasts a collection of over 1,500 different airfoils with various characteristics and applications. You can view plots of the different airfoil shapes as well as download a text file containing the data itself (typically 50-100 points). Many of the airfoils appropriate for small UAVs are labeled "low Reynolds number airfoil". This essentially means that they are designed for aircraft that fly at relatively low speeds. A couple of good series to begin looking at are the Eppler and Selig series. 
