@@ -13,12 +13,12 @@ By definition, both gases and liquids are fluids. These are classified together 
 
 When a fluid flows, a no-slip condition is assumed wherever it contacts a solid. This means that the flow velocity of the fluid at any point it contacts a solid is zero. The velocity increases outward from the surface until it gets to the free stream velocity (U<sub>∞</sub>). This occurs in a quadratic fashion, as shown below. The portion of the flow that has a velocity profile is of particular interest to us because this is where the aircraft is dealing with aerodynamic forces. It is referred to as the boundary layer.
 
-![Velocity Profile](./figures/velocity_profile.JPG)
+{% include figure image_path="_pages/fundamentals/aerodynamics/figures/velocity_profile.JPG" caption="Figure 1: Velocity profile of a fluid along a surface." %}
 
 ### The Boundary Layer
 As a fluid flows past a solid, the boundary layer "sticks" to the surface, creating a layer of slower moving fluid around the solid. This layer is typically only a few millimeteres thick. It is generally accepted that the boundary layer ends when the fluid velocity is 0.99(U<sub>∞</sub>). As the fluid flows farther down the surface, the boundary layer grows in thickness. Each horizontal point along the boundary layer maintains a quadratic velocity profile, increasing in size with the thickness. The boundary layer continues to grow until either it separates from the surface or the surface ends. Much of aerodynamic design is focused on ensuring that the boundary layer stays attached to the airplane as much as possible.
 
-![Boundary Layer](./figures/boundary_layer.JPG)
+{% include figure image_path="_pages/fundamentals/aerodynamics/figures/boundary_layer.JPG" caption="Figure 2: Boundary layer of a fluid passing over a flat plate." %}
 
 Within the boundary layer, one of the main forces being dealt with is shear stress. This is essentially a force acting parallel to the surface whose magnitude depends on the rate at which the velocity is changing and properties of the fluid present. In the equation below, τ is the shear stress, µ is the dynamic viscosity of the fluid, u is the fluid velocity relative to the surface, and y is the perpendicular distance from the surface. As you can see, an increase in the rate at which the velocity changes with position would result in an increase in shear stress. This in turn causes an increase in parasitic drag on the airplane, which is comprised of skin friction and pressure drag. Further discussion on types of drag can be found in the section on performance.
 
@@ -53,7 +53,7 @@ The Bernoulli Equation allows us to compare properties at different points along
 
 The lift vector is, by definition, perpendicular to the free stream (not necessarily to the airfoil itself). This puts lift in direct opposition to gravity under normal conditions. As the angle of attack is increased, the net upward pressure gradient increases, producing more lift. At higher angles of attack (typically about 12-15°) the airfoil begins to stall and lose lift. This occurs due to the boundary layer separating earlier along the airfoil due to viscous effects. The depiction below shows the streamlines around an inclined airfoil near stall. Notice that the wake behind the airfoil also becomes quite large, increasing drag and energy lost to the air. 
 
-![Tilted Airfoil](./figures/tilted_airfoil.JPG)
+{% include figure image_path="_pages/fundamentals/aerodynamics/figures/tilted_airfoil.JPG" caption="Figure 3: Streamlines of flow around an airfoil at a high angle" %}
 
 ### Drag
 In contrast to the lifting force, drag is defined as being parallel to the free stream. For small UAVs, its main source is produced by skin friction. This is a result of the shear stress acting on the surface of the airplane. Laminar flow produces significantly lower shear stress, making turbulent flow undesirable in terms of skin friction. An airfoil that can delay boundary layer separation longer will have more laminar flow, and therefore less skin friction.
@@ -63,5 +63,3 @@ Another significant source of drag is pressure drag. Since air is viscous, some 
 The rest of the drag force on small UAVs is related to how the vehicle produces lift, and is called induced drag. It is impossible to eliminate induced drag because it is coupled to lift. When a wing generates lift, it is not exactly perpendicular to the free stream. The component of the induced lift vector that is parallel to the free stream is the induced drag. This can also be thought of as energy being left behind in the air from the downwash of the UAV. It is this same principle that results in the vortices trailing behind the wingtips.
 
 {% include figure image_path="_pages/fundamentals/aerodynamics/figures/downwash.jpg" caption="Figure 4: Representation of downwash. Produced by XLFR5." %}
-
-
