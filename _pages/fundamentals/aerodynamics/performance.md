@@ -15,4 +15,4 @@ Introduction
 
 ## Dynamic Stability
 
-##Measure of Performance
+## Measures of Performance
