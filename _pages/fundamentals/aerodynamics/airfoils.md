@@ -27,7 +27,7 @@ One of the most important considerations when selecting an airfoil is the lift a
 
 There are a few key characteristics you are looking for that will be shown on your lift and drag polars. Let's look at the polar that plots the coefficient of lift as a function of angle of attack (α) for various airfoils. The first thing you should notice is the general shape of the polar. There is at first a linear relationship between the Cl and angle of attack. As you increase the angle of the airfoil relative to free flow, the coefficient of lift will increase with a slope of about 2π (Cl/α in radians). At around 10-12 degrees, the airfoil begins to stall, meaning that large amounts of drag are beginning to occur and lift is being lost. This is represented on the polar by a peak and eventual downward curve. 
 
-{% include figure image_path="_pages/fundamentals/aerodynamics/figures/cl_alpha.JPG" caption="Figure 3: Coefficient of lift for various airfoils at different angles of attack." %}
+{% include figure image_path="_pages/fundamentals/aerodynamics/figures/cl_alpha_plot.JPG" caption="Figure 3: Coefficient of lift for various airfoils at different angles of attack." %}
 
 Some airfoils have a higher peak than others, signifying a higher maximum Cl. This is advantageous because it allows the UAV to take off with smaller lifting surfaces and increases overall aerodynamic efficiency. Here, the airfoil represented by the dark blue line obviously has the highest Cl max (about 1.6). Another interesting feature is the shape of the peak. A gentler downward curve represents an airfoil with a more forgiving stall development. For example, lift will be lost more gradually on the airfoil represented by the green line than the light blue line, which drops sharply and will lose lift very quickly after beginning to stall at Cl max.
 
@@ -44,8 +44,8 @@ When selecting an airfoil, it is useful to compare at least 10-15 different airf
 
 One additional consideration that should be made is the general shape and curvature of the airfoil. If lift and drag characteristics alone are considered, you may be stuck with an airfoil that is thin, curvy, and difficult to manufacture. A thin airfoil will often be difficult to create with the foam cutter, and will experience frequent breakage. As an example, let us consider the two airfoils below. In this case, the DAE-31 airfoil has a higher Cl max and better stall and drag characteristics. The NACA 4412 airfoil has somewhat comparable characteristics, but is significantly thicker (especially at the trailing edge) and easier to manufacture. This makes it the preferred selection in most cases for small UAVs.
 
-{% include figure image_path="_pages/fundamentals/aerodynamics/figures/DAE31_shape.PNG" caption="Figure 6: Plot of the DAE-31 airfoil" %}
-{% include figure image_path="_pages/fundamentals/aerodynamics/figures/NACA_4412_shape.PNG" caption="Figure 7: Plot of the NACA 4412 airfoil" %}
+{% include figure image_path="_pages/fundamentals/aerodynamics/figures/DAE31_shape.PNG" caption="Figure 6: Normalized plot of the DAE-31 airfoil" %}
+{% include figure image_path="_pages/fundamentals/aerodynamics/figures/NACA_4412_shape.PNG" caption="Figure 7: Normalized plot of the NACA 4412 airfoil" %}
 
 ## The UIUC Airfoil Database
 When it comes to getting data for UAV airfoils, the [UIUC database](https://m-selig.ae.illinois.edu/ads/coord_database.html) is likely the best public resource available. It boasts a collection of over 1,500 different airfoils with various characteristics and applications. You can view plots of the different airfoil shapes as well as download a text file containing the data itself (typically 50-100 points). Many of the airfoils appropriate for small UAVs are labeled "low Reynolds number airfoil". This essentially means that they are designed for aircraft that fly at relatively low speeds. A couple of good series to begin looking at are the Eppler and Selig series. 
@@ -95,11 +95,11 @@ In order to be able upload airfoil data files to XFLR5 for analysis, there is a 
 
 Notice that the points begin at the leading edge, move over the top to the trailing edge, and then jump back to the front to do the bottom. Not only will this result in a line right through the middle of the airfoil, but XFLR5 will be unable to work with the data file for analysis. The first thing you want to do is copy the data points from the text file given on the UIUC site, and then paste them into an Excel spreadsheet. At first, all of the data will be in one column. In order to easily rearrange the data, we need to split it into two columns. This can be done using the **Text to Columns** function under the "Data" tab. Under the data type, select "Delimited", then push "Next". Since this data is space delimited, check the box for "Space" and then click "Finish". With a few minor adjustments, your data should be in two columns now.
 
-{% include figure image_path="_pages/fundamentals/aerodynamics/figures/text_to_columns.JPG" caption="Figure 8: Text to Columns function on Excel." %}
+{% include figure image_path="_pages/fundamentals/aerodynamics/figures/text_to_columns.JPG" caption="Figure 8: Text to Columns function in Excel." %}
 
 The next step is to sort the first section that goes over the top. We want this to go from back to front instead of front to back. This can be done using the **Sort** function, also under the "Data" tab. Highlight the first section, then click the button to sort. You will want to sort by Column A (which is the x positions) from "Largest to Smallest", then click "OK". Your data should now match up with zeros in the middle. Go ahead and delete any empty rows and the extra row of zeros. Your data is now properly ordered. 
 
-{% include figure image_path="_pages/fundamentals/aerodynamics/figures/data_sort.JPG" caption="Figure 9: Sort function on Excel." %}
+{% include figure image_path="_pages/fundamentals/aerodynamics/figures/data_sort.JPG" caption="Figure 9: Sort function in Excel." %}
 
 As a last step, we need to put the data points into a DAT file type. To do so, copy the data from Excel into a text editor such as Notepad, and then click File>>Save As. Go ahead and name your file, making sure to change the file type dropdown to "All Files". Then simply put ".dat" at the end of your file name and save. Now your airfoil is ready to be uploaded to XFLR5!
 
