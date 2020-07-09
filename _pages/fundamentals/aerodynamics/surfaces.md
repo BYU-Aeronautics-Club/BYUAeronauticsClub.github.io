@@ -4,6 +4,7 @@ title: "Lifting Surfaces"
 layout: single
 sidebar:
     nav: "fundamentals"
+
 ---
 
 Introduction
