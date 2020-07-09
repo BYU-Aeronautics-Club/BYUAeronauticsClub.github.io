@@ -62,6 +62,6 @@ Another significant source of drag is pressure drag. Since air is viscous, some 
 
 The rest of the drag force on small UAVs is related to how the vehicle produces lift, and is called induced drag. It is impossible to eliminate induced drag because it is coupled to lift. When a wing generates lift, it is not exactly perpendicular to the free stream. The component of the induced lift vector that is parallel to the free stream is the induced drag. This can also be thought of as energy being left behind in the air from the downwash of the UAV. It is this same principle that results in the vortices trailing behind the wingtips.
 
-{% include figure image_path="_pages/fundamentals/aerodynamics/figures/downwash.JPG" caption="Representation of downwash. Produced by XLFR5." %}
+{% include figure image_path="_pages/fundamentals/aerodynamics/figures/downwash.jpg" caption="Figure 4: Representation of downwash. Produced by XLFR5." %}
 
 
