@@ -80,8 +80,8 @@ fundamentals:
         url: /fundamentals/aerodynamics/fluids/
       - title: "Airfoils"
         url: /fundamentals/aerodynamics/airfoils/
-      - title: "Lifting Surfaces"
-        url: /fundamentals/aerodynamics/surfaces/
+      - title: "Configurations"
+        url: /fundamentals/aerodynamics/configurations/
       - title: "Performance"
         url: /fundamentals/aerodynamics/performance/
       - title: "XFLR5"
