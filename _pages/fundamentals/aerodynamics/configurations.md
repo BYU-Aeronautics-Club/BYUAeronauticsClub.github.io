@@ -24,9 +24,11 @@ The biplane configuration, although not very common, has the advantage of provid
 
 {% include figure image_path="_pages/fundamentals/aerodynamics/figures/biplane_wing.JPG" caption="Figure 3: Biplane wing" %}
 
-Some flexibility in the longitudinal positioning of the wing is offered in the canard configuration. 
+Some flexibility in the longitudinal positioning of the wing is offered in the canard configuration. It features a wing placed at the rear of the UAV with a horizontal stabilizer at the front. This is common on business-class jets such as the [Piaggio P180](https://en.wikipedia.org/wiki/Piaggio_P.180_Avanti "Piaggio P180") because it allows the engines to be mounted in the rear to reduce noise in the cabin. Since the wing is far aft of the center of gravity, the horizontal stabilizer is placed in front to provide static stability. This could be useful in a situation where greater access to the fuselage is needed or rear motor placement is necessary. The drawback is the increased complexity in the aerodynamic design that would likely result in a less stable configuration for a small UAV.
 
 {% include figure image_path="_pages/fundamentals/aerodynamics/figures/canard_wing.JPG" caption="Figure 4: Canard wing" %}
+
+The last wing configuration we will mention is the tandem, which merely replaces the tail with a second wing. Much like the biplane, this allows for a UAV that has a much shorter span that produces the same amount of lift. Also like the biplane, the aft wing will receive downwash from the front wing, reducing aerodynamic efficiency. Some common applications in industry are small, personal aircraft and long distance flyers. 
 
 {% include figure image_path="_pages/fundamentals/aerodynamics/figures/tandem_wing.JPG" caption="Figure 5: Tandem wing" %}
 
