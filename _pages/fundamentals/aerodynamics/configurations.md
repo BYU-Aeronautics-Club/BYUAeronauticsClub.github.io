@@ -13,7 +13,7 @@ As a general class of aircraft, a UAV can be just about any flying vehicle that 
 
 ## Wings
 ### Conventional
-We will first discuss the conventional wing configuration mentioned above. It features a single, forward wing paired with a tail toward the back of the UAV. Since the wing generates most of the lift, it creates a slight moment around the center of gravity (CG). The tail is placed at the back of the UAV to offset the aerodynamic moment from the wing, making it statically stable. A conventional wing is very stable and easy to work with. This is a good choice when a project has limited design time or expertise are limited. It is by far the most commonly used configuration, and for good reason. There is some lack of flexibility if you have a unique mission requirement that needs some additional creativity in design, or want to pursue a more interesting design path.
+The conventional wing configuration features a single, forward wing paired with a tail toward the back of the UAV. Since the wing generates most of the lift, it creates a slight moment around the center of gravity (CG). The tail is placed at the back of the UAV to offset the aerodynamic moment from the wing, making it statically stable. A conventional wing is very stable and easy to work with. This is a good choice when a project has limited design time or expertise are limited. It is by far the most commonly used configuration, and for good reason. There is some lack of flexibility if you have a unique mission requirement that needs some additional creativity in design, or want to pursue a more interesting design path.
 
 {% include figure image_path="_pages/fundamentals/aerodynamics/figures/conventional_wing.JPG" caption="Figure 1: Conventional wing" %}
 
