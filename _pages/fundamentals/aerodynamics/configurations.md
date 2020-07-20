@@ -18,10 +18,10 @@ You'll notice on the wing in Figure 1 that the chord changes as you move lateral
 
 Changing each of these parameters will have different effects on the flight characteristics of your wing. Summarized in the table below are some of the advantages and disadvantages of increasing a few critical parameters while holding all other parameters constant (where possible). 
 
-| Parameter     | Advantages            | Disadvantages | 
-| ------------- | ------------------------- | ------------------------- | 
-| Span (b)      | Reduced induced drag, increase efficiency | Weaker and heavier wings, higher stall speed | 
-| Wing Area (S) | Decreased stall speed | Increased skin friction, increased weight | 
+| Parameter      | Advantages              | Disadvantages           | 
+| -------------- | ----------------------- | ----------------------- | 
+| Span (b)       | Reduced induced drag, increase efficiency | Weaker and heavier wings, higher stall speed | 
+| Wing Area (S)  | Decreased stall speed | Increased skin friction, increased weight | 
 | Sweep (&#x03B3;) | Reduced compressibility drag | Longer wings for same span, risk of tip stall | 
 | Taper Ratio (&#x03BB;) | More even load distribution | Higher risk of tip stall |
 
