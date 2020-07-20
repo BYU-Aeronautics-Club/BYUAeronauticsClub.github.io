@@ -20,10 +20,10 @@ Changing each of these parameters will have different effects on the flight char
 
 | Parameter      | Advantages              | Disadvantages           | 
 | -------------- | ----------------------- | ----------------------- | 
-| Span       | Reduced induced drag, increase efficiency | Weaker and heavier wings, higher stall speed | 
-| Wing Area  | Decreased stall speed | Increased skin friction, increased weight | 
-| Sweep  | Reduced compressibility drag | Longer wings for same span, risk of tip stall | 
-| Taper Ratio | More even load distribution | Higher risk of tip stall |
+| Span   (b)     | Reduced induced drag, increase efficiency | Weaker and heavier wings, higher stall speed | 
+| Area (S)  | Decreased stall speed | Increased skin friction, increased weight | 
+| Sweep (&#x03B3;) | Reduced compressibility drag | Longer wings for same span, risk of tip stall | 
+| Taper Ratio (&#x03BB;) | More even load distribution | Higher risk of tip stall |
 
 ## Wings
 ### Conventional
