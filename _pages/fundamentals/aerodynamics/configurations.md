@@ -16,14 +16,14 @@ Before we discuss configurations, it is important to understand the basic parame
 
 You'll notice on the wing in Figure 1 that the chord changes as you move laterally. The chord in the middle is called the root chord while at the tip it is called the tip chord. If you divide the tip chord by the root chord, the result is called the taper ratio, represented by hte greek letter &#x03BB;. The wing area is represented by an uppercase S and is generally the planform area of the wing, but this can change depending on the application. To measure the aspect ratio (AR), you divide the square of the span by the wing area. For a wing that has the same chord throughout, this simply becomes the span divided by the chord. 
 
-Changing each of these parameters will have different effects on the flight characteristics of your wing. Summarized in the table below are some of the advantages and disadvantages of increasing a few critical parameters while holding all other parameters constant (where possible). 
+Changing each of these parameters will have different effects on the flight characteristics of your UAV. Summarized in the table below are some of the advantages and disadvantages of increasing a few critical parameters while holding all other parameters constant (where possible). 
 
 | Parameter      | Advantages              | Disadvantages           | 
 | -------------- | ----------------------- | ----------------------- | 
 | Span   (b)     | Reduced induced drag, increase efficiency | Weaker and heavier wings, higher stall speed | 
 | Area (S)  | Decreased stall speed | Increased skin friction, increased weight | 
 | Sweep (&#x03B3;) | Reduced compressibility drag | Longer wings for same span, risk of tip stall | 
-| Taper Ratio (&#x03BB;) | More even load distribution | Higher risk of tip stall |
+| Taper (&#x03BB;) | More even load distribution | Higher risk of tip stall |
 
 ## Wings
 ### Conventional
