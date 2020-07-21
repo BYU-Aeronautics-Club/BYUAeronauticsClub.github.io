@@ -9,12 +9,12 @@ sidebar:
 
 As a general class of aircraft, a UAV can be just about any flying vehicle that does not contain a person. In the Aeronautics Club, we deal primarily with fixed-wing UAV's, which generate lift through aerodynamic forces using the shape of the aircraft itself. Although you may be most comfortable with the conventional aircraft design, there are many fixed-wing configurations worth exploring that can produce desirable characteristics. Selections should be made based on your mission and performance requirements. Here we present a non-exhaustive list of some alternatives for wing, engine, and tail designs.
 
-## Aircraft Geometry
+## Basic Geometry
 Before we discuss configurations, it is important to understand the basic parameters that define a UAV. Starting with the wing, probably the most characteristic parameter is the span, which is the length from one tip to the other. This is represented by a lowercase b. The angle from horizontal to the leading edge is called sweep, and is represented by the greek letter &#x03B3;. The distance from the leading edge to the trailing edge at any particular point on the wing is called the chord, and is represented by a lowercase c. 
 
 {% include figure image_path="_pages/fundamentals/aerodynamics/figures/wing_params.JPG" caption="Figure 1: Basic parameters of a wing." %}
 
-You'll notice on the wing in Figure 1 that the chord changes as you move laterally. The chord in the middle is called the root chord while at the tip it is called the tip chord. If you divide the tip chord by the root chord, the result is called the taper ratio, represented by hte greek letter &#x03BB;. The wing area is represented by an uppercase S and is generally the planform area of the wing, but this can change depending on the application. To measure the aspect ratio (AR), you divide the square of the span by the wing area. For a wing that has the same chord throughout, this simply becomes the span divided by the chord. 
+You'll notice on the wing in Figure 1 that the chord changes as you move laterally. The chord in the middle is called the root chord while at the tip it is called the tip chord. If you divide the tip chord by the root chord, the result is called the taper ratio, represented by the greek letter &#x03BB;. The wing area is represented by an uppercase S and is generally the planform area of the wing, but this can change depending on the application. To measure the aspect ratio (AR), you divide the square of the span by the wing area. For a wing that has the same chord throughout, this simply becomes the span divided by the chord. 
 
 Changing each of these parameters will have different effects on the flight characteristics of your UAV. Summarized in the table below are some of the advantages and disadvantages of increasing a few critical parameters while holding all other parameters constant (where possible). 
 
@@ -24,6 +24,8 @@ Changing each of these parameters will have different effects on the flight char
 | Area (S)  | Decreased stall speed | Increased skin friction, increased weight | 
 | Sweep (&#x03B3;) | Reduced compressibility drag | Longer wings for same span, risk of tip stall | 
 | Taper (&#x03BB;) | More even load distribution | Higher risk of tip stall |
+
+The tail has similar geometry, depending on the configuration. Most tails will have at least one vertical and horizontal stabilizer. Like the wing, the horizontal stabilizer can be defined by its span, sweep, root and tip chords, and taper. Unlike the wing, about the last 10-15% of it is used to create the elevator. This is used primarily for pitch control. If you turn the horizontal stabilizer 90° and cut it in half, you get the vertical stabilizer. It has all of the same parameters except the span is usually just called the height. Like its horizontal counterpart, its last 10-15% is reserved for the rudder control surface.
 
 ## Wings
 ### Conventional
