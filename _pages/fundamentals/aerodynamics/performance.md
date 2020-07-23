@@ -44,7 +44,7 @@ To nondimensionalize this into a coefficient, we can use the definition of the d
 ![Coefficient of parasitic drag](./figures/cdp_formula.JPG){: .align-center}
 
 ### Induced Drag
-The third type of drag we are dealing with, induced drag, is closely related to the lift produced by the aircraft. In fact, induced drag is the component of the induced lift vector that is parallel to the free stream. The other component of this vector is the actual lift benefitting the UAV. In any case, we need to know a few things about the lift characteristics of a UAV before calculating induced drag.
+The third type of drag we are dealing with, *induced drag*, is closely related to the lift produced by the aircraft. In fact, induced drag is the component of the induced lift vector that is parallel to the free stream. The other component of this vector is the actual lift benefitting the UAV. In any case, we need to know a few things about the lift characteristics of a UAV before calculating induced drag.
 
 The first thing we want to find is the *inviscid span efficiency*. This is a measure of how elliptic the lift distribution is across the wing. A perfect distribution would have an efficiency of 1.0 to minimize induced drag, but most aircraft are closer to 0.98. To estimate this, we use the following equation where d<sub>f</sub> is the fuselage diameter and b is the span of the wing. 
 
@@ -66,7 +66,15 @@ If you would like to then calculate the actual drag force, you can combine every
 
 ![Induced drag](./figures/induced_drag_force.JPG){: .align-center}
 
-## Measures of Performance
+## Measures of Aerodynamic Performance
+### Lifting Capability
+The most basic way to determine if your UAV is airworthy is to determine if it can produce sufficient lift to overcome gravity. You may have noticed there isn't really a section anywhere on lift on this site. This is because compared to drag, lift is incredibly simple. We should first look at the *stall speed* of your aircraft. The stall speed is defined as the minimum speed required to maintain altitude at maximum lift. It is related to the [C<sub>l</sub> max](https://aeronautics.byu.edu/fundamentals/aerodynamics/airfoils/#lift-and-drag-performance) of the airfoil, as in the formula below (taken from the definition of coefficient of lift).
+
+![Stall speed](./figures/stall_speed.JPG){: align-center}
+
+Notice the effect that span also has on the stall speed. A stall speed of about 10-12 m/s is typical for a small UAV, but minimizing this will allow you to lower your power requirements, which in turn saves weight (and money). If you get much higher than about 15 m/s you will want to seriously consider redesigning some aspects of your UAV or you may not be able to achieve flight. 
+
+### Lift over Drag Ratio
 
 
 ## Static Stability
