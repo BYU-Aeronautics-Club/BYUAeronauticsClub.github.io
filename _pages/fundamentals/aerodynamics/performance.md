@@ -31,15 +31,15 @@ For a body of revolution (such as a fuselage), we use a different formula based 
 
 ![Form Factor 2](./figures/form_factor_bodies.JPG){: .align-center}
 
-Next we want to calculate the total area of the UAV that is exposed to air. This is typically referred to as the wetted area, or S<sub>wet</sub>. For a lifting surface, it can be approximated using the equation below. For a body of revolution, simply find the outer surface area of the shape.
+Next we want to calculate the total area of the UAV that is exposed to air. This is typically referred to as the wetted area, or S<sub>wet</sub>. For a lifting surface, it can be approximated using the equation below. The reference area (S<sub>ref</sub>) is simply the planform, or projected, area of the component. For a body of revolution, simply find the outer surface area of the shape using known formulas.
 
-![Wetted Area](./figures/swet_wings.JPG){: .align-center}
+![Wetted Area](./figures/s_wet.JPG){: .align-center}
 
 Putting this all together, we can calculate the parasitic drag for each component of an airplane using the formula below. To get the total drag, you will have add up the parasitic drag for each component individually since they have different form factors and wetted areas. 
 
 ![Parasitic Drag](./figures/parasitic_drag_formula.JPG){: .align-center}
 
-To nondimensionalize this into a coefficient, we can use the definition of the drag coefficient and apply it to parasitic drag, as in the equation below. For this equation, S<sub>ref</sub> is simply the planform (or projected) area of the component. 
+To nondimensionalize this into a coefficient, we can use the definition of the drag coefficient and apply it to parasitic drag, as in the equation below. For this equation, S<sub>ref</sub> is simply the planform area of the component. 
 
 ![Coefficient of parasitic drag](./figures/cdp_formula.JPG){: .align-center}
 
