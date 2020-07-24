@@ -7,7 +7,7 @@ sidebar:
 
 ---
 
-One of the primary concerns when designing any aircraft is to minimize the amount of drag it experiences. All of the drag forces we will discuss here can be directly attributed to either pressure or shear. A summary of these forces and how they produce lift and drag can be found in the section on [fluid mechanics](https://aeronautics.byu.edu/fundamentals/aerodynamics/fluids/). Here, we will focus more on calculating the magnitude of the drag forces so you can understand what parameters contribute to it.
+One of the primary concerns when designing any aircraft is to minimize the amount of drag it experiences. All of the drag forces we will discuss here can be directly attributed to either pressure or shear. A summary of these forces and how they produce lift and drag can be found in the section on [fluid mechanics](https://aeronautics.byu.edu/fundamentals/aerodynamics/fluids/). Here, we will focus more on calculating the magnitude of the drag forces so you can understand what parameters contribute to them and the characteristics of your UAV.
 
 ## Parasitic Drag
 There are essentially three different types of drag that we are dealing with. Two of these (skin friction and pressure) can be summed up to become parasitic drag. Skin friction drag is caused by shear stress while pressure drag is caused by normal stress from pressure. Both of these will be factored into a single equation that can be used to calculate the total parasitic drag.
