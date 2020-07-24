@@ -82,6 +82,8 @@ fundamentals:
         url: /fundamentals/aerodynamics/airfoils/
       - title: "Configurations"
         url: /fundamentals/aerodynamics/configurations/
+      - title: "Drag"
+        url: /fundamentals/aerodynamics/drag/
       - title: "Performance"
         url: /fundamentals/aerodynamics/performance/
       - title: "XFLR5"
