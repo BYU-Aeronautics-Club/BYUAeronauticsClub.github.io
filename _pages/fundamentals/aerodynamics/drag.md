@@ -7,10 +7,9 @@ sidebar:
 
 ---
 
-## Aerodynamic Forces
-All the forces we will discuss here can be directly attributed to either pressure or shear. A summary of these forces and how they produce lift and drag can be found in the section on [fluid mechanics](https://aeronautics.byu.edu/fundamentals/aerodynamics/fluids/). Here, we will focus more on calculating the magnitude and location of these forces and dealing with how they affect your aircraft. In general, you want to find ways to minimize drag while maintaining sufficient lift.
+One of the primary concerns when designing any aircraft is to minimize the amount of drag it experiences. All of the drag forces we will discuss here can be directly attributed to either pressure or shear. A summary of these forces and how they produce lift and drag can be found in the section on [fluid mechanics](https://aeronautics.byu.edu/fundamentals/aerodynamics/fluids/). Here, we will focus more on calculating the magnitude of the drag forces so you can understand what parameters contribute to it.
 
-### Parasitic Drag
+## Parasitic Drag
 There are essentially three different types of drag that we are dealing with. Two of these (skin friction and pressure) can be summed up to become parasitic drag. Skin friction drag is caused by shear stress while pressure drag is caused by normal stress from pressure. Both of these will be factored into a single equation that can be used to calculate the total parasitic drag.
 
 For skin friction, we want to calculate the *skin friction coefficient*, which is given the symbol C<sub>f</sub>. To calculate this completely accurately, it would be necessary to perform an integral of the shear stress across across the entire surface. Doing so is quite difficult, so we will use a simpler solution that is the analytical solution for a flat plate in laminar with no pressure gradient. This is called the Blasius solution and is summarized in the equation below.
@@ -41,7 +40,7 @@ To nondimensionalize this into a coefficient, we can use the definition of the d
 
 ![Coefficient of parasitic drag](./figures/cdp_formula.JPG){: .align-center}
 
-### Induced Drag
+## Induced Drag
 The third type of drag we are dealing with, *induced drag*, is closely related to the lift produced by the aircraft. In fact, induced drag is the component of the induced lift vector that is parallel to the free stream. The other component of this vector is the actual lift benefitting the UAV. In any case, we need to know a few things about the lift characteristics of a UAV before calculating induced drag.
 
 The first thing we want to find is the *inviscid span efficiency*. This is a measure of how elliptic the lift distribution is across the wing. A perfect distribution would have an efficiency of 1.0 to minimize induced drag, but most aircraft are closer to 0.98. To estimate this, we use the following equation where d<sub>f</sub> is the fuselage diameter and b is the span of the wing. 
