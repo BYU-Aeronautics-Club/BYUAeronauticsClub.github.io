@@ -35,12 +35,12 @@ Creating static stability for the yaw and roll axes is generally a bit simpler t
 
 To produce yaw stability, you only need sufficient horizontal stabilizer area. Doing so will prevent what is termed as *sideslip*, which is a yaw angle created by a disturbance of some kind. In most cases, the vertical tail size is determined by the amount of rudder control you need rather than a stability parameter. 
 
-You can measure the lateral stability of your UAV using *stability derivatives*. These can be calculated using a program such as XFLR5. For yaw, you want the derivative C<sub>n,&#x03B2;</sub> to least be greater than 0, but around 0.06-0.15 is a good range to be in. For roll, you actually want a negative value of the derivate C<sub>roll,&#x03B2;</sub> usually in the range -0.1-0. 
+You can measure the lateral stability of your UAV using *stability derivatives*. These can be calculated using a program such as XFLR5. For yaw, you want the derivative C<sub>n,&#x03B2;</sub> to at least be greater than 0, but around 0.06-0.15 is a good range to be in. For roll, you actually want a negative value of the derivate C<sub>roll,&#x03B2;</sub> usually in the range -0.1-0. 
 
 ## Dynamic Stability
-Recall that static stability was *any* tendency of a system to return to a steady condition. Dynamic stability is more a measure of how effectively that system returns to the stead condition. We will again use the block on the horizontal spring as an example. Imagine that a force-impulse is applied to the block. If the system is dynamically stable, the block will be sufficiently damped that the amplitude will decrease until the system is again at rest (see Figure 1a). If this were not the case, the block would continue to oscillate with increasing amplitude (see Figure 1b). 
+Recall that static stability was *any* tendency of a system to return to a steady condition. Dynamic stability is more a measure of how effectively that system returns to the stead condition. We will again use the block on the horizontal spring as an example. Imagine that a force-impulse is applied to the block. If the system is dynamically stable, the block will be sufficiently damped that the amplitude will decrease until the system is again at rest (see Figure 5a). If this were not the case, the block would continue to oscillate with increasing amplitude (see Figure 5b). 
 
-{% include gallery caption="Figure 1a, 1b: Response of dynamically stable (left) and dynamically unstable (right) systems to a force input." layout="half" %}
+{% include gallery caption="Figure 5a, 5b: Response of dynamically stable (left) and dynamically unstable (right) systems to a force input." layout="half" %}
 
 For UAVs, we are concerned with how effectively they can return to a stead flight condition. This is done by measuring several dynamic stability modes. Something about real and imaginary //FIXME.
 
