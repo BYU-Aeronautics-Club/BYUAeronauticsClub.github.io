@@ -35,7 +35,7 @@ Creating static stability for the yaw and roll axes
 
 To demonstrate this, imagine a block on a horizontal spring. A force input will cause the block to oscillate with an initial amplitude. If the system is dynamically stable, the block will be sufficiently damped that the amplitude will decrease until the system is again at rest (see Figure 1a). If this were not the case, the block would continue to oscillate with increasing amplitude (see Figure 1b).
 
-{% include gallery caption="Figure 1a, 1b: Response of dynamically stable (left) and dynamically unstable (right) system to a force input." layout="half" %}
+{% include gallery caption="Figure 1a, 1b: Response of dynamically stable (left) and dynamically unstable (right) systems to a force input." layout="half" %}
 
 ### Stability Modes
 
