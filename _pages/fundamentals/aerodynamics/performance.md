@@ -4,6 +4,9 @@ title: "Performance"
 layout: single
 sidebar:
     nav: "fundamentals"
+gallery:
+    - image_path: /_pages/fundamentals/aerodynamics/figures/dynamically_stable.JPG
+    - image_path: /_pages/fundamentals/aerodynamics/figures/dynamically_unstable.JPG
 
 ---
 
@@ -21,17 +24,18 @@ For a UAV, longitudinal static stability is related to the relative placement of
 
 {% include figure image_path="_pages/fundamentals/aerodynamics/figures/aerodynamic_center.JPG" caption="Figure 2: Aerodynamic forces on a UAV." %}
 
-In order for a UAV to be statically stable, the aerodynamic center must be aft of the CG. This is what creates the tendency of the aircraft to return to a steady flight position. The distance between these two points is defined by a value known as the *static margin* (see Figure 3). It is defined as the distance between the aerodynamic center and CG divided by the mean aerodynamic chord (x/c). The result is a decimal that is represented as a percent. A typical small UAV will have a static margin of 12-15%. This value is most effected by the relative positioning and size of the main wing and horizontal stabilizer.
+In order for a UAV to be statically stable, the aerodynamic center must be aft of the CG. This is what creates the tendency of the aircraft to return to a steady flight position. The distance between these two points is defined by a value known as the *static margin* (see Figure 3). It is defined as the distance between the aerodynamic center and CG divided by the mean aerodynamic chord (x/c). The result is a decimal that is represented as a percent. A typical small UAV will have a static margin of 12-15%. This value is most effected by the relative positioning and size of the main wing and horizontal stabilizer. The exact position of the aerodynamic center can be done using programs such as [XFLR5](https://aeronautics.byu.edu/fundamentals/aerodynamics/xflr5/) or [AVL](http://web.mit.edu/drela/Public/web/avl/).
 
 {% include figure image_path="_pages/fundamental/aerodynamics/figures/static_margin.JPG" caption="Figure 3: Parameters on a UAV pertaining to the static margin." %}
 
 ### Lateral
+Creating static stability for the yaw and roll axes
 
 ## Dynamic Stability
 
-To demonstrate this, imagine a block on a horizontal spring. A force input will cause the block to oscillate with an initial amplitude. If the system is dynamically stable, the block will be sufficiently damped that the amplitude will decrease until the system is again at rest (see Figure 1). If this were not the case, the block would continue to oscillate with increasing amplitude.
+To demonstrate this, imagine a block on a horizontal spring. A force input will cause the block to oscillate with an initial amplitude. If the system is dynamically stable, the block will be sufficiently damped that the amplitude will decrease until the system is again at rest (see Figure 1a). If this were not the case, the block would continue to oscillate with increasing amplitude (see Figure 1b).
 
-{% include figure image_path="_pages/fundamentals/aerodynamics/figures/dynamic_system.JPG" caption="Figure 3: Response of a dynamically stable system to a force input." %}
+{% include gallery caption="Figure 1a, 1b: Response of dynamically stable (left) and dynamically unstable (right) system to a force input." layout="half" %}
 
 ### Stability Modes
 
