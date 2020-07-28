@@ -49,11 +49,11 @@ Before we can understand stability modes, we must first discuss eigenvalues. Ess
 
 For longitudinal dynamics (pitch), there are two modes of consequence: *short period* and *phugoid*. The short period mode is a short up and down motion that results from a disturbance. It is typically very highly damped and is therefore of little concern from a design perspective. The phugoid mode is more of an oscillating pitch that results from gradual changes in attitude. It is much less damped and can be problematic if unstable. The eigenvalue can be influenced by the static margin and relative size and placement of the tail and wing.
 
-{% include figure image_path="_pages/fundamentals/aerodynamics/figures/longitudinal_modes.JPG" caption="Figure 6: Typical longitudinal stability mode eigenvalues."
+{% include figure image_path="_pages/fundamentals/aerodynamics/figures/longitudinal_modes.JPG" caption="Figure 6: Typical longitudinal stability mode eigenvalues." %}
 
 For lateral dynamics (yaw, roll), there are three modes of consequence: *roll*, *dutch roll*, and *spiral*. The roll mode, like short period, is highly damped and typically of little concern. Dutch roll is kind of a swaying back and forth, affecting both yaw and roll. It is fairly damped but can be concerning if not sufficiently so. The spiral mode is the least damped, but has an incredibly slow frequency. This makes it easy to detect with careful piloting, but can result in a nosedive under certain conditions. 
 
-{% include figure image_path="_pages/fundamentals/aerodynamics/figures/lateral_modes.JPG" caption="Figure 7: Typical lateral stability mode eigenvalues."
+{% include figure image_path="_pages/fundamentals/aerodynamics/figures/lateral_modes.JPG" caption="Figure 7: Typical lateral stability mode eigenvalues." %}
 
 ## Measures of Aerodynamic Performance
 ### Lifting Capability
