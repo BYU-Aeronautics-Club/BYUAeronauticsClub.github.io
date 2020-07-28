@@ -42,9 +42,18 @@ Recall that static stability was *any* tendency of a system to return to a stead
 
 {% include gallery caption="Figure 5a, 5b: Response of dynamically stable (left) and dynamically unstable (right) systems to a force input." layout="half" %}
 
-For UAVs, we are concerned with how effectively they can return to a stead flight condition. This is done by measuring several dynamic stability modes. Something about real and imaginary //FIXME.
+For UAVs, we are concerned with how effectively they can return to a stead flight condition. This is done by measuring several dynamic stability modes.
 
 ### Stability Modes
+Before we can understand stability modes, we must first discuss eigenvalues. Essentially, an eigenavalue for a dynamic system can be real, imaginary, or complex (both). If the real part is negative, the eigenvalue indicates dynamic stability. An imaginary component to the eigenvalue indicates that there is a frequency associated with it (oscillating). This also means there are a pair of eigenvalues with the same magnitude in the imaginary component, but with opposite signs. In any case, we want all of the dynamic stability modes to have positive real values with as high of a magnitude as is reasonable to maximize damping.
+
+For longitudinal dynamics (pitch), there are two modes of consequence: *short period* and *phugoid*. The short period mode is a short up and down motion that results from a disturbance. It is typically very highly damped and is therefore of little concern from a design perspective. The phugoid mode is more of an oscillating pitch that results from gradual changes in attitude. It is much less damped and can be problematic if unstable. The eigenvalue can be influenced by the static margin and relative size and placement of the tail and wing.
+
+{% include figure image_path="_pages/fundamentals/aerodynamics/figures/longitudinal_modes.JPG" caption="Figure 6: Typical longitudinal stability mode eigenvalues."
+
+For lateral dynamics (yaw, roll), there are three modes of consequence: *roll*, *dutch roll*, and *spiral*. The roll mode, like short period, is highly damped and typically of little concern. Dutch roll is kind of a swaying back and forth, affecting both yaw and roll. It is fairly damped but can be concerning if not sufficiently so. The spiral mode is the least damped, but has an incredibly slow frequency. This makes it easy to detect with careful piloting, but can result in a nosedive under certain conditions. 
+
+{% include figure image_path="_pages/fundamentals/aerodynamics/figures/lateral_modes.JPG" caption="Figure 7: Typical lateral stability mode eigenvalues."
 
 ## Measures of Aerodynamic Performance
 ### Lifting Capability
@@ -59,5 +68,4 @@ You can also calculate the coefficient of lift that you will need at your antici
 ![Cl Formula](./figures/cl_formula_2.JPG){: .align-center}
 
 ### Lift over Drag Ratio
-
-
+Calculating the lift over drag ratio is one way of determining an optimal cruise speed for your UAV. As you might have guessed, //FIXME
