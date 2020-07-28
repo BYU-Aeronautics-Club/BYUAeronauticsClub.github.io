@@ -35,7 +35,7 @@ Creating static stability for the yaw and roll axes is generally a bit simpler t
 
 To produce yaw stability, you only need sufficient horizontal stabilizer area. Doing so will prevent what is termed as *sideslip*, which is a yaw angle created by a disturbance of some kind. In most cases, the vertical tail size is determined by the amount of rudder control you need rather than a stability parameter. 
 
-You can measure the lateral stability of your UAV using *stability derivatives*. These can be calculated using a program such as XFLR5. For yaw, you want the derivative C<sub>n,&#x03B2;</sub> to at least be greater than 0, but around 0.06-0.15 is a good range to be in. For roll, you actually want a negative value of the derivate C<sub>roll,&#x03B2;</sub> usually in the range -0.1-0. 
+You can measure the lateral stability of your UAV using *stability derivatives*. These can be calculated using a program such as XFLR5. For yaw, you want the derivative C<sub>n,&#x03B2;</sub> to be greater to 0 to be stable. For roll, you actually want a negative value of the derivate C<sub>roll,&#x03B2;</sub> for stability. 
 
 ## Dynamic Stability
 Recall that static stability was *any* tendency of a system to return to a steady condition. Dynamic stability is more a measure of how effectively that system returns to the stead condition. We will again use the block on the horizontal spring as an example. Imagine that a force-impulse is applied to the block. If the system is dynamically stable, the block will be sufficiently damped that the amplitude will decrease until the system is again at rest (see Figure 5a). If this were not the case, the block would continue to oscillate with increasing amplitude (see Figure 5b). 
@@ -45,7 +45,7 @@ Recall that static stability was *any* tendency of a system to return to a stead
 For UAVs, we are concerned with how effectively they can return to a stead flight condition. This is done by measuring several dynamic stability modes.
 
 ### Stability Modes
-Before we can understand stability modes, we must first discuss eigenvalues. Essentially, an eigenavalue for a dynamic system can be real, imaginary, or complex (both). If the real part is negative, the eigenvalue indicates dynamic stability. An imaginary component to the eigenvalue indicates that there is a frequency associated with it (oscillating). This also means there are a pair of eigenvalues with the same magnitude in the imaginary component, but with opposite signs. In any case, we want all of the dynamic stability modes to have positive real values with as high of a magnitude as is reasonable to maximize damping.
+Before we can understand stability modes, we must first discuss eigenvalues. Essentially, an eigenavalue for a dynamic system can be real, imaginary, or complex (both). If the real part is negative, the eigenvalue indicates dynamic stability. An imaginary component to the eigenvalue indicates that there is a frequency associated with it (oscillating). This also means there are a pair of eigenvalues with the same magnitude in the imaginary component, but with opposite signs (e.g. 5±4i). In any case, we want all of the dynamic stability modes to have negative real values with as high of a magnitude as is reasonable to maximize damping.
 
 For longitudinal dynamics (pitch), there are two modes of consequence: *short period* and *phugoid*. The short period mode is a short up and down motion that results from a disturbance. It is typically very highly damped and is therefore of little concern from a design perspective. The phugoid mode is more of an oscillating pitch that results from gradual changes in attitude. It is much less damped and can be problematic if unstable. The eigenvalue can be influenced by the static margin and relative size and placement of the tail and wing.
 
@@ -67,5 +67,11 @@ You can also calculate the coefficient of lift that you will need at your antici
 
 ![Cl Formula](./figures/cl_formula_2.JPG){: .align-center}
 
-### Lift over Drag Ratio
-Calculating the lift over drag ratio is one way of determining an optimal cruise speed for your UAV. As you might have guessed, //FIXME
+### Lift to Drag Ratio
+Calculating the lift to drag ratio is one way of determining an optimal cruise speed for your UAV. As you might have guessed, this measure of performance optimizes cruise velocity by finding when the ratio of lift to drag is highest. Using principles from the page on [drag](https://aeronautics.byu.edu/fundamentals/aerodynamics/drag/), you can calculate the total drag on your UAV over a range of speeds using MATLAB or Excel. Using the estimated weight as your total lift, you can then plot L/D as a function of speed. Your plot should look something like Figure 8. Notice that there is a clear peak in L/D. This will occur at around 10-15 m/s for most small UAVs with an L/D ratio of about 12-15.
+
+{% include figure image_path="_pages/fundamentals/aerodynamics/figures/LD_plot.JPG" caption="Figure 8: Typical L/D trends at varying airspeeds." %}
+
+If higher speeds are desired, this will result in an increase in drag. If you look carefully at the formulas for [parasitic](https://aeronautics.byu.edu/fundamentals/aerodynamics/drag/#parasitic-drag) and [induced](https://aeronautics.byu.edu/fundamentals/aerodynamics/drag/#induced-drag) drag, you will notice each is directly affected by velocity. Parasitic drag will trend upward while induced drag will trend downward as velocity increases. This creates an overall horseshoe-shaped trend in total drag (see Figure 9). Make sure to calculate specific values so that you can design a sufficient propulsion system to overcome drag. 
+
+{% include figure image_path="_pages/fundamentals/aerodynamics/figures/drag_plot.JPG" caption="Figure 9: Trends for different types of drag at varying airspeeds." %}
