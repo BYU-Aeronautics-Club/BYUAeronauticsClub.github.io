@@ -88,6 +88,18 @@ fundamentals:
         url: /fundamentals/aerodynamics/performance/
       - title: "XFLR5"
         url: /fundamentals/aerodynamics/xflr5/
+  - title: "Design Tools"
+    children:
+      - title: "Defining Requirements"
+        url: /fundamentals/designtools/missionrequirements
+      - title: "Team Organization"
+        url: /fundamentals/designtools/teamorganization
+      - title: "Decision Matrices"
+        url: /fundamentals/designtools/decisionmatrices
+      - title: "Prototyping"
+        url: /fundamentals/designtools/prototyping
+      - title: "Testing"
+        url: /fundamentals/designtools/testing
       
 
 tutorials:
