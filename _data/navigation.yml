@@ -91,7 +91,7 @@ fundamentals:
   - title: "Design Tools"
     children:
       - title: "Defining Requirements"
-        url: /fundamentals/designtools/missionrequirements
+        url: /fundamentals/designtools/definingrequirements
       - title: "Team Organization"
         url: /fundamentals/designtools/teamorganization
       - title: "Decision Matrices"
