@@ -58,7 +58,8 @@ Each of these systems has a different function within the UAV, and will therefor
                     <li>Sufficient wing area to lift 1 kg</li>
                     <li>Fix-wing configuration</li>
                     <li>Conventional wing and tail</li>
-                    <li>High dynamica nd static stability</li>
+                    <li>Static margin of 15%</li>
+                    <li>Stable in all dynamic modes</li>
                 </ul>
             </td>
         </tr>
@@ -68,7 +69,8 @@ Each of these systems has a different function within the UAV, and will therefor
             </td>
             <td>
                 <ul>
-                    <li>1"x1"x1" candy cargo space</li>
+                    <li>Thick airfoil</li>
+                    <li>6x6x6 cm candy cargo space</li>
                     <li>CG position maintained after drop</li>
                 </ul>
             </td>
@@ -80,8 +82,9 @@ Each of these systems has a different function within the UAV, and will therefor
             <td>
                 <ul>
                     <li>Remote activated bomb bay</li>
-                    <li>FPV system when not in LOS</li>
-                    <li>6-channel communication system</li><li>Ground-facing camera</li>
+                    <li>FPV camera system</li>
+                    <li>6-channel Tx/Rx system</li>
+                    <li>Ground-facing live video camera</li>
                 </ul> 
             </td>
         </tr>
@@ -92,13 +95,80 @@ Each of these systems has a different function within the UAV, and will therefor
             <td>
                 <ul>
                     <li>Sufficient thrust for hand launch</li>
-                    <li>10 min battery life at 50% throttle 3s LiPo battery</li>
+                    <li>10 min battery life at 50% throttle</li>
+                    <li>3s LiPo battery (11.1V)</li>
                 </ul>
             </td>
         </tr>
     </tbody>
 </table>
 
-Notice that //FIX ME
+More requirements might be added further into the project, but this represents a good starting point for the candy drop. Notice that each system has specific, relevant requirements attached to them. 
 
 ### Key Performance Indicators
+Some of these requirements are more qualitative, but many can be directly measured. To do so, you can create *key performance indicators* (KPI's) to measure your design against as it is being developed. This has been done for the candy drop in the table below. As you get more detailed in your design, you can add benchmarks (or goals) for each KPI as something to measure against.
+
+<table>
+    <thead>
+        <tr>
+            <td>
+                <b>System</b>
+            </td>
+            <td>
+                <b>KPI</b>
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                Aerodynamics
+            </td>
+            <td>
+                <ul>
+                    <li>Wing area (m<sup>2</sup>)</li>
+                    <li>Static margin (%)</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Structures
+            </td>
+            <td>
+                <ul>
+                    <li>Airfoil thickness (mm)</li>
+                    <li>Cargo space volume (cm<sup>2</sup>)</li>
+                    <li>CG position change after drop (mm)</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Controls
+            </td>
+            <td>
+                <ul>
+                    <li>Number of Tx/Rx system channels</li>
+                    <li>Tx/Rx system frequency (GHz)</li>
+                    <li>FPV system range (km)</li>
+                    <li>FPV system frequency (GHz)</li>
+                    <li>Camera resolution (megapixels)</li>
+                </ul> 
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Propulsion
+            </td>
+            <td>
+                <ul>
+                    <li>Motor power rating (kV)</li>
+                    <li>Propeller diameter (in)</li>
+                    <li>Battery voltage (V)</li>
+                    <li>Battery energy storage (mAh)</li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>
