@@ -36,7 +36,12 @@ Once you have an idea of what your mission requirements are, you can start trans
 + Propulsion
 
 Each of these systems has a different function within the UAV, and will therefore be tied to different requirements. System requirements are generally much more specific than mission requirements, and typically much more measurable. You might even need to do some basic calculations to find good metrics to compare to. Continuing with our "candy drop" example, we produce the table of requirements below.
-<table id="t01">
+
+<style type="text/css">
+    table th {background-color:grey; color:white;}
+</style>
+
+<table>
     <tbody>
         <tr>
             <th>System</th>
@@ -95,9 +100,3 @@ Each of these systems has a different function within the UAV, and will therefor
 Notice that //FIX ME
 
 ### Key Performance Indicators
-
-
-#t01 th {
-    color: white;
-    background-color: grey;
-}
