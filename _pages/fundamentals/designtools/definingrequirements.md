@@ -41,10 +41,10 @@ Each of these systems has a different function within the UAV, and will therefor
     <thead>
         <tr>
             <td>
-                System
+                <b>System</b>
             </td>
             <td>
-                Requirements
+                <b>Requirements</b>
             </td>
         </tr>
     </thead>
