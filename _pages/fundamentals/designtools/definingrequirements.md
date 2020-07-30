@@ -36,13 +36,61 @@ Once you have an idea of what your mission requirements are, you can start trans
 + Propulsion
 
 Each of these systems has a different function within the UAV, and will therefore be tied to different requirements. System requirements are generally much more specific than mission requirements, and typically much more measurable. You might even need to do some basic calculations to find good metrics to compare to. Continuing with our "candy drop" example, we produce the table of requirements below.
-
-| System           | Requirements                           | 
-| ---------------- | -------------------------------------- |
-| Aerodynamics     | <ul><li>Sufficient wing area to lift 1 kg</li><li>Fixed-wing configuration</li><li>Conventional wing and tail</li><li>High dynamc and static stability</li></ul>| 
-| Structures       | <ul><li>1"x1"x1" candy cargo space</li><li>CG position maintained after drop</li></ul>| 
-| Controls         | <ul><li>Remote activated bomb bay</li><li>FPV system when not in LOS</li><li>6-channel communication system</li><li>Ground-facing camera</li></ul> | 
-| Propulsion       | <ul><li>Sufficient thrust for hand launch</li><li>10 min battery life at 50% throttle 3s LiPo battery</li></ul> |
+<table>
+    <tbody>
+        <tr>
+            <th>System</th>
+            <th>Requirements</th>
+        </tr>
+        <tr>
+            <td>
+                Aerodynamics
+            </td>
+            <td>
+                <ul>
+                    <li>Sufficient wing area to lift 1 kg</li>
+                    <li>Fix-wing configuration</li>
+                    <li>Conventional wing and tail</li>
+                    <li>High dynamica nd static stability</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Structures
+            </td>
+            <td>
+                <ul>
+                    <li>1"x1"x1" candy cargo space</li>
+                    <li>CG position maintained after drop</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Controls
+            </td>
+            <td>
+                <ul>
+                    <li>Remote activated bomb bay</li>
+                    <li>FPV system when not in LOS</li>
+                    <li>6-channel communication system</li><li>Ground-facing camera</li>
+                </ul> 
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Propulsion
+            </td>
+            <td>
+                <ul>
+                    <li>Sufficient thrust for hand launch</li>
+                    <li>10 min battery life at 50% throttle 3s LiPo battery</li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 Notice that //FIX ME
 
