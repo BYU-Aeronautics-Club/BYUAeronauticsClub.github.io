@@ -37,26 +37,12 @@ Once you have an idea of what your mission requirements are, you can start trans
 
 Each of these systems has a different function within the UAV, and will therefore be tied to different requirements. System requirements are generally much more specific than mission requirements, and typically much more measurable. You might even need to do some basic calculations to find good metrics to compare to. Continuing with our "candy drop" example, we produce the table of requirements below.
 
-+------------------+----------------------------------------+ 
 | System           | Requirements                           | 
-+==================+========================================+ 
-| Aerodynamics     | Sufficient wing area to lift 1 kg    | 
-|                  | Fixed-wing configuration             | 
-|                  | Conventional wing and tail           | 
-|                  | High dynamc and static stability     | 
-+------------------+----------------------------------------+ 
-| Structures       | 1"x1"x1" candy cargo space           | 
-|                  | CG position maintained after drop    | 
-+------------------+----------------------------------------+ 
-| Controls         | Remote activated bomb bay            | 
-|                  | FPV system when not in LOS           | 
-|                  | 6-channel communication system       | 
-|                  | Ground-facing camera                 | 
-+------------------+----------------------------------------+ 
-| Propulsion       | Sufficient thrust for hand launch    |
-|                  | 10 min battery life at 50% throttle  |
-|                  | 3s LiPo battery                      |
-+------------------+----------------------------------------+
+| ---------------- | -------------------------------------- |
+| Aerodynamics     | <ul><li>Sufficient wing area to lift 1 kg</li><li>Fixed-wing configuration</li><li>Conventional wing and tail</li><li>High dynamc and static stability</li></ul> | 
+| Structures       | <ul><li>1"x1"x1" candy cargo space</li><li>CG position maintained after drop</li></ul> | 
+| Controls         | <ul><li>Remote activated bomb bay</li><li>FPV system when not in LOS</li><li>6-channel communication system</li><li>Ground-facing camera</li></ul> | 
+| Propulsion       | <ul><li>Sufficient thrust for hand launch</li><li>10 min battery life at 50% throttle 3s LiPo battery</li></ul> |
 
 Notice that //FIX ME
 
