@@ -40,8 +40,8 @@ Each of these systems has a different function within the UAV, and will therefor
 <table>
     <tbody>
         <tr>
-            <thead>System</th>
-            <thead>Requirements</th>
+            <thead>System</thead>
+            <thead>Requirements</thead>
         </tr>
         <tr>
             <td>
