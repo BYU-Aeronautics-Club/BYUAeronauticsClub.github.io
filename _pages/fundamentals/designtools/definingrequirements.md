@@ -40,22 +40,22 @@ Each of these systems has a different function within the UAV, and will therefor
 +------------------+----------------------------------------+ 
 | System           | Requirements                           | 
 +==================+========================================+ 
-| Aerodynamics     | - Sufficient wing area to lift 1 kg    | 
-|                  | - Fixed-wing configuration             | 
-|                  | - Conventional wing and tail           | 
-|                  | - High dynamc and static stability     | 
+| Aerodynamics     | Sufficient wing area to lift 1 kg    | 
+|                  | Fixed-wing configuration             | 
+|                  | Conventional wing and tail           | 
+|                  | High dynamc and static stability     | 
 +------------------+----------------------------------------+ 
-| Structures       | - 1"x1"x1" candy cargo space           | 
-|                  | - CG position maintained after drop    | 
+| Structures       | 1"x1"x1" candy cargo space           | 
+|                  | CG position maintained after drop    | 
 +------------------+----------------------------------------+ 
-| Controls         | - Remote activated bomb bay            | 
-|                  | - FPV system when not in LOS           | 
-|                  | - 6-channel communication system       | 
-|                  | - Ground-facing camera                 | 
+| Controls         | Remote activated bomb bay            | 
+|                  | FPV system when not in LOS           | 
+|                  | 6-channel communication system       | 
+|                  | Ground-facing camera                 | 
 +------------------+----------------------------------------+ 
-| Propulsion       | - Sufficient thrust for hand launch    |
-|                  | - 10 min battery life at 50% throttle  |
-|                  | - 3s LiPo battery                      |
+| Propulsion       | Sufficient thrust for hand launch    |
+|                  | 10 min battery life at 50% throttle  |
+|                  | 3s LiPo battery                      |
 +------------------+----------------------------------------+
 
 Notice that //FIX ME
