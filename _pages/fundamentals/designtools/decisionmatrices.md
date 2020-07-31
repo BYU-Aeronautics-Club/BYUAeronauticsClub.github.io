@@ -10,7 +10,7 @@ sidebar:
 When you are first conceptualizing your UAV, one of the first things you will do is determine a configuration. One way of doing this is to use a decision matrix, or *Pugh matrix*. Strategies on how to do this effectively will be discussed here.
 
 ## Selecting Configurations
-Before using the Pugh matrix, you will need to select a few different [configurations](https://aeronautics.byu.edu/fundamentals/aerodynamics/configurations/). These may have a few features in common or be completely different. In any case, you will want to pick 2-4 different configurations that fit well with the [mission requirements](https://aeronautics.byu.edu/fundamentals/designtools/definingrequirements/) that you have already determined. One way of visualizing your configurations is to use a program like [OpenVSP](http://openvsp.org/) to create a quick CAD model (see Figure 1). Once you have a few selected, they can be compared in the Pugh matrix.
+Before using the Pugh matrix, you will need to select a few different [configurations](https://aeronautics.byu.edu/fundamentals/aerodynamics/configurations/). These may have a few features in common or be completely different. In any case, you will want to pick 2-4 different configurations that fit well with the [mission requirements](https://aeronautics.byu.edu/fundamentals/designtools/definingrequirements) that you have already determined. One way of visualizing your configurations is to use a program like [OpenVSP](http://openvsp.org/) to create a quick CAD model (see Figure 1). Once you have a few selected, they can be compared in the Pugh matrix.
 
 {% include figure image_path="_pages/fundamentals/designtools/figures/VSP_Model_1.PNG" caption="Figure 1: A simple model produced with OpenVSP." %}
 
