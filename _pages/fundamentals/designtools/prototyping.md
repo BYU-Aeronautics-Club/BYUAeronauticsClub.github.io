@@ -7,4 +7,15 @@ sidebar:
     
 ---
 
-Most classes you've taken up to this point have probably neglected the importance of iterative prototyping. Usually due to lack of time, you probably ended up just making one final prototype for whatever project you were working on. 
+Most classes you've taken up to this point have probably neglected the importance of iterative prototyping. Usually due to lack of time, you probably ended up just making one final prototype for whatever project you were working on. Prototyping for a full UAV design project should be much more intensive. This page will step you through a standard approach to prototyping using a real-life example.
+
+## Conceptual Prototyping
+As you begin designing something aboud CAD //FIXME
+
+## Preliminary Prototyping
+
+
+## Detailed Prototyping
+
+
+## Final Manufacturing
