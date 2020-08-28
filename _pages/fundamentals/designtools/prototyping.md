@@ -19,6 +19,6 @@ Once you have a general idea of what your UAV is going to look like, you will wa
 ## Iterative Prototyping
 As your project progresses, you will find it very helpful to continue builiding many prototypes of each subsystem and likely the entire UAV. This gives you lots of chances to see points of failure before launching the final build, which is likely much more elaborate (and expensive). You will also find that your team's motivation and excitement will increase when they cna begin to see the fruits of their labor. 
 
-{% inlcude figure image_path="_pages/fundamentals/designtools/figures/design_iterations.JPG" caption="Figure 2: Design iterations for a fuselage" %}
+{% include figure image_path="_pages/fundamentals/designtools/figures/design_iterations.JPG" caption="Figure 2: Design iterations for a fuselage" %}
 
 You should be sure to keep log of any changes to your design and update them on your CAD file. This may at times require extensive remodeling if a major flaw is discovered or another substantial change is needed. Do not be afraid to throw out parts of your design that need to be changed (see Figure 2 for an example). Make sure to [test](https://aeronautics.byu.edu/fundamentals/designtools/testing) as you go to ensure proper operation and integration of all systems. Nothing is permanent until you deliver the final plane and fly it. 
