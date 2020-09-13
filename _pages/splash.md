@@ -5,8 +5,8 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/Cover_Photo_V4.jpg
   actions:
-    - label: "About Us"
-      url: "/about/"
+    - label: "Zoom Link"
+      url: "https://byu.zoom.us/my/"
 excerpt: "A Student Club"  
   
 feature_row:
