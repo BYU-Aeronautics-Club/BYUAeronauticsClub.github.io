@@ -6,7 +6,7 @@ header:
   overlay_image: /assets/images/Cover_Photo_V4.jpg
   actions:
     - label: "Zoom Link"
-      url: "https://byu.zoom.us/my/"
+      url: "https://byu.zoom.us/my/aeronautics"
 excerpt: "A Student Club"  
   
 feature_row:
