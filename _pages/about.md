@@ -13,7 +13,7 @@ As you continue to grow through your experiences in the club, you will see large
 ### Weekly Zoom Meetings: 
 5pm on Thursdays
 
-[Zoom Link](<https://byu.zoom.us/my/>){: .btn .btn--info}
+[Zoom Link](<https://byu.zoom.us/my/aeronautics>){: .btn .btn--info}
 
 ### Contact Us:
 Email: byuaeronautics@gmail.com
