@@ -49,7 +49,7 @@ leadership_row3:
     alt: "Student Instructor"
     title: "Student Instructor"
     excerpt: "Adam Wangeman"
-  - image_path: /assets/images/Will_N.jpg
+  - image_path: /assets/images/Will N.jpg
     alt: "Photographer"
     title: "Photographer"
     excerpt: "Will Newbold"
