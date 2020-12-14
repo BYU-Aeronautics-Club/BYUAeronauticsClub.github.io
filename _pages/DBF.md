@@ -1,5 +1,5 @@
 ---
-permalink: /DBF/
+permalink: /DBF-guides/
 title: "Design Build Fly Team"
 layout: single
 ---

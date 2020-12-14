@@ -1,9 +1,9 @@
 ---
-permalink: /DBF/how-to/sensitivity/
+permalink: /DBF-guides/how-to/sensitivity/
 title: "Sensitivity Study"
 layout: single
 sidebar:
-    nav: "DBF"
+    nav: "DBF Guides"
 ---
 
 ## Overview

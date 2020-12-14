@@ -1,9 +1,9 @@
 ---
-permalink: /DBF/how-to/read/
+permalink: /DBF-guides/how-to/read/
 title: "How to Read the Rules"
 layout: single
 sidebar:
-    nav: "DBF"
+    nav: "DBF Guides"
 ---
 
 # Reading the Rules
