@@ -39,7 +39,7 @@ The 31-week project breakdown could be as follows:
 |**Phase III:**| **Detailed Design --- Weeks 18-23 --- Goal: Fully Operational Prototype and Design Report Submitted**|
 |18| 1) Decide if there is any higher fidelity analyses that need to be done (CFD, FEA, etc.) and have the teams initiate those. 2) Begin manufacturing of a fully operational prototype, starting with the components who don't require high fidelity analyses. 3) Begin to write up the Detail Design section of the Design Report. |
 |19| 1) Continue any final analyses. 2) Continue manufacturing. 3) Begin final testing. 4) Continue to write up the Detail Design section of the Design Report. |
-|20| 1) Finish final analyses. 2) Finish up manufacturing. 3) Continue final testing. 4) Continue writing up Detail Design sectino of the Design Report. |
+|20| 1) Finish final analyses. 2) Finish up manufacturing. 3) Continue final testing. 4) Continue writing up Detail Design section of the Design Report. |
 |21| 1) Do the final testing.  2) Write up the rest of the Completed Testing and Planned Testing subsections of the Design Report. |
 |22| 1) Write the Executive Summary of the Design Report. 2) Add in final drawings package to Design Report. 3) Write up the Performance Results section of the Design Report. 4) Send report off for advisor review. |
 |23| 1) Apply advisor feedback and finish up the Design Report. 2) Submit Design Report.|
