@@ -1,6 +1,6 @@
 ---
 permalink: /DBF-guides/step-by-step/proposal/
-title: "Step-by-step Guide To Writing the Proposal"
+title: "Writing the Proposal"
 layout: single
 sidebar:
     nav: "DBF Guides"
