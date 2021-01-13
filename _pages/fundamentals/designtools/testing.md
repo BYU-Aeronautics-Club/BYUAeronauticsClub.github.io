@@ -69,7 +69,7 @@ Once you have completed and assembled your design, you will want to perform flig
             </td>
             <td>
                 <ul>
-                    <li>Connections Secured</li>
+                    <li>Connections Secure</li>
                     <li>Components Secure</li>
                     <li>Wire Integrity</li>
                 </ul>
@@ -82,7 +82,7 @@ Once you have completed and assembled your design, you will want to perform flig
             <td>
                 <ul>
                     <li>Proper motor direction</li>
-                    <li>Propellor securedm</li>
+                    <li>Propellor secured</li>
                     <li>Propellor balanced</li>             
                 </ul> 
             </td>
