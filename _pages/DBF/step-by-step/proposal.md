@@ -35,7 +35,7 @@ All of the team's activities for the year start with the proposal.  It is import
 
 ### Step 1: READ THE RULES!!!
 
-You might be supprised at how many points will be lost if you don't read the rules.  In fact, if you don't read the rules, you probably won't write a proposal that will get accepted.  *Every team member should read ALL of the rules at least once before starting on the proposal.*  As you read the rules, take note of what you need to do to get points, not just on the proposal, but for the whole competition.  If you don't know the metrics for success, you'll miss things and lose points all along the way.
+You might be supprised at how many points will be lost if you don't read the rules.  In fact, if you don't read the rules, you probably won't write a proposal that will get accepted.  *Every team member should read ALL of the rules at least once before starting on the proposal.*  As you read the rules, take note of what you need to do to get points, not just on the proposal, but for the whole competition.  If you don't know the metrics for success, you'll miss things and lose points all along the way.  You may also note that sometimes the rules indicate that the better your proposal is, the better slot you receive for the flyoff.  So putting in the time to know your stuff and do well now is worth it in the end.
 
 #### Step 1.a: Create a Checklist
 
