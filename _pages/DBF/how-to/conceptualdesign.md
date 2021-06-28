@@ -78,7 +78,20 @@ Once you've completed a decision matrix for all of the major configuration optio
 
 ### Initial Sizing
 
+
+
 ### Airfoil Selection
+
+At the conceptual stage, you can basically pick any airfoil that fits in the general parameters you want.  Typically, you'll want to maximize lift and minimize drag (maximizing efficiency is an easy way to look at both simultaneously), and you'll want an airfoil that can be manufactured with your chosen methods (watch out for very small wedge angles at the trailing edge.)
+
+Later, after you've started the preliminary design process, you can revisit your airfoil selection and pin down an option that is better for your design.
+
+Some common starting point airfoils include the Clark-Y and NACA 2412 airfoils, but these are mediocre and you should probably find or design something that is better for your application.
 
 ### Prototyping
 
+You should get into the habit of starting to prototype very early, especially for any specialty payload or functionality.  Many times, it's faster to build and test something rather than painstakingly analyzing it, especially if it's outside your current set of expertises.
+
+A prototype of the conceptual airframe is also possible.  A quick foamie can give you a lot of insight and intuition for a better than average starting point for your preliminary designs.  A first prototype is usually just a glider, which may or may not include control surfaces.
+
+Don't be afraid to build something fast and ugly that will help you learn faster than guessing at unknown parameters in some low-fidelity simulation.
