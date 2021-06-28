@@ -57,9 +57,23 @@ After you've decided the sub-system requirements, you'll have a good idea about 
 
 Once you've decided on an organization framework, write up those paragraphs, detailing the individual skill sets required for each team, etc. in the Management Summary section, along with creating a team organization chart (see the guide on how to make a nice one that matches the rest of the document).
 
+
+### Step 7: Sensitivity Study
+
+The purpose of the sensitivity study is to discover how the design parameters relate to the overall mission requirements.  It also is important to figure out what is most important for maximizing you score on the various missions.  Since you've already translated the rules/mission requirements into sub-system requirements, you're half way there when it comes to the sensitivity study.
+
+This is probably the most confusing part of the proposal for most people.  The sensitivity study is NOT simply figuring out how many points you can get for each part of the mission objectives. For example, you don't want to conclude that if the rules state you get an extra point for each minute of flight, then for each minute of flight you get an extra point.  This is obvious.  In this case, what you actually want to conclude is something more along the lines of: the weight of the aircraft has a negative linear relationship of slope, y/x, with aircraft endurance; as well as a positive step-wise relationship, z/w, with the points available for payload capacity. By plotting the two against each other, you can find where the maximum amount of points is to be had.
+
+Note that this specific example may not apply or make sense for your mission requirements; the point is that the sensitivity study will  likely be a little complicated, and have various inter-related components.  You should have coupled design parameters and trade-offs.  In other words, the sensitivity study is just a preliminary optimization/trade-study for your design.
+
+You won't have any details at this point still, but you should know how things relate from basic hand-calculation type equations (like those in the ME 415 course notes).  By knowing how things relate, you'll be able to use the sensitivity study to figure out what aspects of the design need to be maximized/minimized or maybe what compromises need to be made up front to maximize your overall score.  This will directly feed into your preliminary design.
+
+The first take-aways from your sensitivity study should be details that will inform your figures of merit in your conceptual design (see the [Conceptual Design Page]("../../../how-to/conceptualdesign.md)).  The sensitivity study will tell you what is most important to prioritize and will help you make some of your configuration decisions.
+
+
 ### Step 4: Conceptual Design
 
-After you've translated the rules into mission objectives, you can start on the conceptual design.  What is a conceptual design? It is the design of the concept. What does that mean? It means that you are looking at big picture things like overall configuration, brainstorming good engineering solutions to this year's specific requriements, etc.  All in all, you're taking the project constraints, and adding in your own constraints, based on sound design principles.  At this stage, you should be focusing on decisions that will allow you to complete the ground mission and any specific payload requirements.  You don't need any details, really, at this point, just concepts that you've decided on and are able to justify.  In the sensitivity study, you'll set yourself up for making some specific decisions later in the preliminary design.
+After you've translated the rules into mission objectives, and completed the sensitivity study, you can start on the conceptual design.  What is a conceptual design? It is the design of the concept. What does that mean? It means that you are looking at big picture things like overall configuration, brainstorming good engineering solutions to this year's specific requriements, etc.  All in all, you're taking the project constraints, and adding in your own constraints, based on sound design principles.  At this stage, you should be focusing on decisions that will allow you to complete the ground mission and any specific payload requirements.  You don't need any details, really, at this point, just concepts that you've decided on and are able to justify.  Now is also the time to write up the paragraphs for the sensitivity study, along with producing any plots/graphs that go along with it in the Conceptual Design section of the proposal.
 
 ### Step 5: See the End from the Beginning
 
@@ -76,17 +90,7 @@ Once you have an idea for the general configuration and the like, you should be 
 You should also have gotten a good feel for what needs to happen as far as testing goes.  Not just for the aerostructural aspects of the airframe, but also any communcation details, extra systems, payload considerations, etc.  Now is the time to write the Test Planning section of the proposal.
 
 
-### Step 7: Sensitivity Study
 
-The purpose of the sensitivity study is to discover how the design parameters relate to the overall mission requirements.  It also is important to figure out what is most important for maximizing you score on the various missions.  Since you've already translated the rules/mission requirements into sub-system requirements, you're half way there when it comes to the sensitivity study.
-
-This is probably the most confusing part of the proposal for most people.  The sensitivity study is NOT simply figuring out how many points you can get for each part of the mission objectives. For example, you don't want to conclude that if the rules state you get an extra point for each minute of flight, then for each minute of flight you get an extra point.  This is obvious.  In this case, what you actually want to conclude is something more along the lines of: the weight of the aircraft has a negative linear relationship of slope, y/x, with aircraft endurance; as well as a positive step-wise relationship, z/w, with the points available for payload capacity. By plotting the two against each other, you can find where the maximum amount of points is to be had.
-
-Note that this specific example may not apply or make sense for your mission requirements; the point is that the sensitivity study will  likely be a little complicated, and have various inter-related components.  You should have coupled design parameters and trade-offs.  In other words, the sensitivity study is just a preliminary optimization/trade-study for your design.
-
-You won't have any details at this point still, but you should know how things relate from basic hand-calculation type equations (like those in the ME 415 course notes).  By knowing how things relate, you'll be able to use the sensitivity study to figure out what aspects of the design need to be maximized/minimized or maybe what compromises need to be made up front to maximize your overall score.  This will directly feed into your preliminary design.
-
-Now is also the time to write up the paragraphs for the sensitivity study, along with producing any plots/graphs that go along with it in the Conceptual Design section of the proposal.
 
 
 <!-- ### Step 6: Preliminary Design
