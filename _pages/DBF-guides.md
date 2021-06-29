@@ -2,6 +2,8 @@
 permalink: /DBF-guides/
 title: "Design Build Fly Team"
 layout: single
+sidebar:
+    nav: "DBF-guides"
 ---
 
 Within the Aeronautics Clubs we currently have one official team: The AIAA Design Build Fly Team that associated with the annual [AIAA Design Build Fly Competion](https://www.aiaa.org/dbf).  The team github can be found at [github.com/BYU-Aeronautics-Club/DBF](https://github.com/BYU-Aeronautics-Club/DBF).
