@@ -1,5 +1,5 @@
 ---
-permalink: /DBF-guides/week-by-week/Systems/
+permalink: /DBF-guides/week-by-week/systems/
 title: "Systems"
 layout: single
 sidebar:

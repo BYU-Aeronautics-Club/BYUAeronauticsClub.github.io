@@ -125,7 +125,7 @@ DBF-guides:
       - title: "Writing the Proposal"
         url: /DBF-guides/step-by-step/proposal/
       - title: "Writing the Final Report"
-        url: /DBF-guides/step-by-step/finalreport/
+        url: /DBF-guides/step-by-step/report/
   - title: "Week-by-Week Schedules"
     children:
       - title: "Overview"
