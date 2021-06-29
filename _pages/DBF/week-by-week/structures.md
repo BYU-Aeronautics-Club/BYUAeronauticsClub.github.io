@@ -3,7 +3,7 @@ permalink: /DBF-guides/week-by-week/structures/
 title: "Structures"
 layout: single
 sidebar:
-    nav: "DBF-Guides"
+    nav: "DBF-guides"
 ---
 
 
