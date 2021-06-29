@@ -67,7 +67,7 @@ corresponding to the appropriate citation in this section.
     - References should appear in numerical order.
     - Format should match AIAA provided guidelines: [https://www.aiaa.org/publications/journals/reference-style-and-format](https://www.aiaa.org/publications/journals/reference-style-and-format)
 
-### When to start
+## When to start
 
 In reality, you should be able to start before the rules are published for the year.  How so?  Each team member should read the top proposals and winning reports for at least the *previous year*.  These are published on the [AIAA DBF website](https://www.aiaa.org/dbf/previous-competitions). The proposals are only 5 pages each, so they can be read quickly (there's definitly enough time before the rules get published to read them).  The winning reports are longer, and may take a while to read. Despite the time investment, it will be very worth the effort (especially for new team members) to get a feel for the quality and quantity of information that you need to be including in the Final Report.  Reading winning reports can also give new team members an idea of the kinds of analyses and tests you might consider doing this year.  As you read the winning reports from previous years, make sure to refer back to the rubric.  You'll be able to see what each of the subsections in the scoring mean in a real report.
 
