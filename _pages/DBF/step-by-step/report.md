@@ -6,7 +6,6 @@ sidebar:
     nav: "DBF-Guides"
 ---
 
-# Writing the Final Report
 
 ## Overview:
 

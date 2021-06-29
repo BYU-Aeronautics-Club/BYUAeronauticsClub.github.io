@@ -5,7 +5,7 @@ layout: single
 sidebar:
     nav: "DBF-Guides"
 ---
-# Writing the Proposal
+
 
 ## Overview:
 

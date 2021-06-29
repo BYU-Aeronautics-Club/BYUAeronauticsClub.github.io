@@ -6,7 +6,7 @@ sidebar:
     nav: "DBF-Guides"
 ---
 
-# Conceptual Design
+
 
 The conceptual design phase is all about making intelligent choices about the approach you will take to meet the design requirements.  In reality, there are many different designs that can perform equally well.  Even if you could develop an omnicient optimizer, you'd possibly still find that there are more than one correct "answer" to the problem.  Thus, conceptual design is about choices.  In this context, choices are often made with weighted decision, or Pugh, matrices.
 

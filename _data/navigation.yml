@@ -7,8 +7,8 @@ main:
     url: /tutorials/
   - title: "Pathways"
     url: /pathways/
-  - title: "Teams"
-    url: /teams/
+  - title: "DBF Team"
+    url: /DBF-Guides/
 
 f3k:
   - title: "Step 1: Spinster"

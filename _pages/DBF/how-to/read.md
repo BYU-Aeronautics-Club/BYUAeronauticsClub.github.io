@@ -6,7 +6,6 @@ sidebar:
     nav: "DBF-Guides"
 ---
 
-# Reading the Rules
 
 Reading the rules is the single most important task for the DBF team.  Without reading the rules, there is almost no chance for success.  The rules will tell you exactly what the judges will be grading you on. SO READ THE RULES!!!
 
