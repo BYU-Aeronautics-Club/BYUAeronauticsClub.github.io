@@ -5,6 +5,7 @@ layout: single
 sidebar:
     nav: "DBF Guides"
 ---
+# Writing the Proposal
 
 ## Overview:
 
@@ -68,7 +69,7 @@ Note that this specific example may not apply or make sense for your mission req
 
 You won't have any details at this point still, but you should know how things relate from basic hand-calculation type equations (like those in the ME 415 course notes).  By knowing how things relate, you'll be able to use the sensitivity study to figure out what aspects of the design need to be maximized/minimized or maybe what compromises need to be made up front to maximize your overall score.  This will directly feed into your preliminary design.
 
-The first take-aways from your sensitivity study should be details that will inform your figures of merit in your conceptual design (see the [Conceptual Design Page]("../../../how-to/conceptualdesign.md)).  The sensitivity study will tell you what is most important to prioritize and will help you make some of your configuration decisions.
+The first take-aways from your sensitivity study should be details that will inform your figures of merit in your conceptual design (see the [Conceptual Design Page](../../../how-to/conceptualdesign.md)).  The sensitivity study will tell you what is most important to prioritize and will help you make some of your configuration decisions.
 
 
 ### Step 4: Conceptual Design
