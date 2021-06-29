@@ -8,7 +8,7 @@ main:
   - title: "Pathways"
     url: /pathways/
   - title: "DBF Team"
-    url: /DBF-Guides/
+    url: /DBF-guides/
 
 f3k:
   - title: "Step 1: Spinster"
@@ -70,7 +70,7 @@ f3k:
   - title: "Final Challenge"
     children:
       - title: "Design Build Fly"
-        url: /pathways/dlg/dbf-Guides/
+        url: /pathways/dlg/dbf-guides/
 
 
 fundamentals:
@@ -123,48 +123,48 @@ DBF-Guides:
   - title: "Step-by-Step Guides"
     children:
       - title: "Writing the Proposal"
-        url: /DBF-Guides/step-by-step/proposal/
+        url: /DBF-guides/step-by-step/proposal/
       - title: "Writing the Final Report"
-        url: /DBF-Guides/step-by-step/finalreport/
+        url: /DBF-guides/step-by-step/finalreport/
   - title: "Week-by-Week Schedules"
     children:
       - title: "Overview"
-        url: /DBF-Guides/week-by-week/overview/
+        url: /DBF-guides/week-by-week/overview/
       - title: "Team Leads"
-        url: /DBF-Guides/week-by-week/leadership/
+        url: /DBF-guides/week-by-week/leadership/
       - title: "Aerodynamics"
-        url: /DBF-Guides/week-by-week/aerodynamics/
+        url: /DBF-guides/week-by-week/aerodynamics/
       - title: "Graphics"
-        url: /DBF-Guides/week-by-week/graphics/
+        url: /DBF-guides/week-by-week/graphics/
       - title: "Manufacturing"
-        url: /DBF-Guides/week-by-week/manufacturing/
+        url: /DBF-guides/week-by-week/manufacturing/
       - title: "Propulsion"
-        url: /DBF-Guides/week-by-week/propulsion/
+        url: /DBF-guides/week-by-week/propulsion/
       - title: "Structures"
-        url: /DBF-Guides/week-by-week/structures/
+        url: /DBF-guides/week-by-week/structures/
       - title: "Systems"
-        url: /DBF-Guides/week-by-week/systems/
+        url: /DBF-guides/week-by-week/systems/
   - title: "How-to Guides"
     children:
       - title: "Reading the Rules"
-        url: /DBF-Guides/how-to/read/
+        url: /DBF-guides/how-to/read/
       - title: "Conceptual Design"
-        url: /DBF-Guides/how-to/conceptualdesign/
+        url: /DBF-guides/how-to/conceptualdesign/
       - title: "Preliminary Design"
-        url: /DBF-Guides/how-to/preliminarydesign/
+        url: /DBF-guides/how-to/preliminarydesign/
       - title: "Detailed Design"
-        url: /DBF-Guides/how-to/detaileddesign/
+        url: /DBF-guides/how-to/detaileddesign/
       - title: "Sensitivity Study"
-        url: /DBF-Guides/how-to/sensitivity/
+        url: /DBF-guides/how-to/sensitivity/
   - title: "Technical Report Helps"
     children:
       - title: "LaTeX Overview"
-        url: /DBF-Guides/techwriting/latex/
+        url: /DBF-guides/techwriting/latex/
       - title: "Fancy Tables"
-        url: /DBF-Guides/techwriting/tables/
+        url: /DBF-guides/techwriting/tables/
       - title: "Gantt Charts"
-        url: /DBF-Guides/techwriting/gantt/
+        url: /DBF-guides/techwriting/gantt/
       - title: "Team Organization Charts"
-        url: /DBF-Guides/techwriting/tikz/
+        url: /DBF-guides/techwriting/tikz/
       - title: "Flow Charts"
-        url: /DBF-Guides/techwriting/xdsm/
+        url: /DBF-guides/techwriting/xdsm/
