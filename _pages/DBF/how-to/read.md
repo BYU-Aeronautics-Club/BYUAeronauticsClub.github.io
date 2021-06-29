@@ -3,7 +3,7 @@ permalink: /DBF-guides/how-to/read/
 title: "Reading the Rules"
 layout: single
 sidebar:
-    nav: "DBF Guides"
+    nav: "DBF-Guides"
 ---
 
 # Reading the Rules

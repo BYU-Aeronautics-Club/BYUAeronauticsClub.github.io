@@ -3,7 +3,7 @@ permalink: /DBF-guides/week-by-week/leadership/
 title: "Team Leads"
 layout: single
 sidebar:
-    nav: "DBF Guides"
+    nav: "DBF-Guides"
 ---
 
 We assume here that team leadership includes primarily the Engineering Lead and Project Manager, but also the sub-team leads. Sub-team leads should focus on their respective suggested schedules, but be aware of the overall milestones discussed here as well.

@@ -3,7 +3,7 @@ permalink: /DBF-guides/week-by-week/Systems/
 title: "Systems"
 layout: single
 sidebar:
-    nav: "DBF Guides"
+    nav: "DBF-Guides"
 ---
 
 The 31-week project breakdown could be as follows:

@@ -3,7 +3,7 @@ permalink: /DBF-guides/how-to/sensitivity/
 title: "Sensitivity Study"
 layout: single
 sidebar:
-    nav: "DBF Guides"
+    nav: "DBF-Guides"
 ---
 
 ## Overview

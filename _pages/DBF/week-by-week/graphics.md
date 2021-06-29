@@ -3,7 +3,7 @@ permalink: /DBF-guides/week-by-week/graphics/
 title: "Graphics"
 layout: single
 sidebar:
-    nav: "DBF Guides"
+    nav: "DBF-Guides"
 ---
 
 
