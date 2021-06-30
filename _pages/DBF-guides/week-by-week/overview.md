@@ -11,7 +11,7 @@ The AIAA Design Build Fly (DBF) competition usually spans from mid-September to 
 
 (Note: you may have a big team, if that's the case, you may want to limit whole team meetings. Below, when "the team" is referenced, you can replace that with "sub-team leads" if your organization requires.)
 
-### Pre-season:
+## Pre-season:
 
 **Week -2 (3 weeks before rules are released / 1 week before Fall Semester starts):**  Before the rules are even released, returning members of the DBF team should recruit new members, especially among underclassmen.  There are several avenues for this kind of thing:
 
@@ -28,7 +28,7 @@ You'll want to recruit people who are both interested and, if possible, already 
 
 Around this time, you'll also probably want to figure out who the overall team lead is, so s/he can start heading up organization and assignment giving.
 
-### Phase 1: Conceptual Design and Proposal:
+## Phase 1: Conceptual Design and Proposal:
 
 **Week 1 (the week the rules are released):**  As soon as the rules are released, everyone on the team should read them multiple times and write down the important stuff.
 
@@ -74,7 +74,7 @@ Have a little team fiesta, share videos from your glide testing, and other testi
 
 The next phase is probably the most intensive and comes as midterms are starting, so don't burn yourself out this week.
 
-### Phase 2: Preliminary Design
+## Phase 2: Preliminary Design
 
 **Weeks 8-9:** They probably already started, but by the time you get to November, most classes will be in full swing.  This is where it get's important to stay motivated and keeping putting in good time to the team's effort.
 
@@ -95,11 +95,11 @@ The payload specific teams will want to be making good prototyping progress as w
 
 **Week 15:** Finals Week.  Your goal should to have everything ready for a preliminary design review with the advisor some time during finals week.
 
-#### Christmas/New Year Break
+### Christmas/New Year Break
 
 **Weeks 16-17:** Take a break, but if you get board, start on the detailed design.
 
-### Phase 3: Detail Design
+## Phase 3: Detail Design
 
 **Weeks 18-20:** Now that you're starting a new semester and don't have any midterms, you should really get a good start on the detailed design.  At this point, you've already had a preliminary design review and a successful (hopefully) flight test.  You should apply the feedback you got in the review, and things you learned from the flight test.
 
@@ -113,7 +113,7 @@ At some point in these four weeks, you'll also want to prototype and test your d
 
 **Week 23:** Somewhere in this timeframe the report will be due, it may be the previous week or this week or next week.  Whatever the due date, make sure that you've completed the previous review steps, then do your final revisions from the advisor's feedback and submit the report.
 
-### Phase 5: Final Manufacture and Dry Runs
+## Phase 5: Final Manufacture and Dry Runs
 **Weeks 24-27:** Build the most beautiful competition aircraft you can manage.
 
 **Week 28-29:** Do some dry runs of the full missions and submit proof of flight.  (This might be week 30 or 32, depending on the due dates)
@@ -122,6 +122,6 @@ At some point in these four weeks, you'll also want to prototype and test your d
 
 **Week 31:** Compete! (again, this far out, we may be off by a few weeks, but it's around this time.)
 
-### Post-season
+## Post-season
 
 Now you just want to make sure to write down the things you learned from the competition, update this page and other DBF-guides that you haven't already, and set yourself up for success next year.
