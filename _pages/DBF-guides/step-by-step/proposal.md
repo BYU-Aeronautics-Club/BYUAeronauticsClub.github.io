@@ -59,7 +59,7 @@ After you've decided the sub-system requirements, you'll have a good idea about 
 Once you've decided on an organization framework, write up those paragraphs, detailing the individual skill sets required for each team, etc. in the Management Summary section, along with creating a team organization chart (see the guide on how to make a nice one that matches the rest of the document).
 
 
-## Step 7: Sensitivity Study
+## Step 4: Sensitivity Study
 
 The purpose of the sensitivity study is to discover how the design parameters relate to the overall mission requirements.  It also is important to figure out what is most important for maximizing you score on the various missions.  Since you've already translated the rules/mission requirements into sub-system requirements, you're half way there when it comes to the sensitivity study.
 
@@ -72,11 +72,11 @@ You won't have any details at this point still, but you should know how things r
 The first take-aways from your sensitivity study should be details that will inform your figures of merit in your conceptual design (see the [Conceptual Design Page](../../../how-to/conceptualdesign.md)).  The sensitivity study will tell you what is most important to prioritize and will help you make some of your configuration decisions.
 
 
-## Step 4: Conceptual Design
+## Step 5: Conceptual Design
 
 After you've translated the rules into mission objectives, and completed the sensitivity study, you can start on the conceptual design.  What is a conceptual design? It is the design of the concept. What does that mean? It means that you are looking at big picture things like overall configuration, brainstorming good engineering solutions to this year's specific requriements, etc.  All in all, you're taking the project constraints, and adding in your own constraints, based on sound design principles.  At this stage, you should be focusing on decisions that will allow you to complete the ground mission and any specific payload requirements.  You don't need any details, really, at this point, just concepts that you've decided on and are able to justify.  Now is also the time to write up the paragraphs for the sensitivity study, along with producing any plots/graphs that go along with it in the Conceptual Design section of the proposal.
 
-## Step 5: See the End from the Beginning
+## Step 6: See the End from the Beginning
 
 As it turns out, you don't need to know anything in order to make a general schedule for the entire year, so that's already included in the template.  You will want to look it over and make sure that the dates are correct and that it matches how you've organized your teams.  Remember that you need to include major milestones, and not just overarching timelines.
 
@@ -84,7 +84,7 @@ In addition, make sure that you reference this schedule throughout the proposal,
 
 By looking at the overall schedule up front, before you start really designing any details, you'll also get a better feel for how the manufacturing flow and testing plan should take shape, such that when you start considering more of the design requirements for this year, you'll have a framework that those details can plug in to directly.
 
-## Step 6: Finish up the Planning Details
+## Step 7: Finish up the Planning Details
 
 Once you have an idea for the general configuration and the like, you should be able to make some decisions on how things are going to be manufactured, including prototypes.  This means that you can write the manufacturing flow paragraphs in the Manufacturing Plan section, as well as detailing the critical processes or technologies (foam cutting, 3D printing, etc.) for your builds.
 
