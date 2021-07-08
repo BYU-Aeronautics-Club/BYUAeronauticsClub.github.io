@@ -27,7 +27,7 @@ Note that you can choose anything you want as a figure of merit, and you can pri
 Next you need to assemble decision matrices for each basic configuration decision (you also need to do this for manufacturing methods and materials).  Let's do an example of wing configuration.  There are typically a few options to choose from: single wing + tail, bi-wing + tail, blended wing/body, wing+canard, and any combination in between and beyond.  For our purposes, let's stick with single wing, blended wing/body, and wing+canard.
 
 We could start building our matrix thusly:
-| Figure | Value |Single Wing|Blended Wing|Canard|
+| Figure | Value | Single Wing | Blended Wing | Canard |
 |------|-------|------|-------|------|
 |Speed|1.0|
 |Payload Capacity|0.8|
