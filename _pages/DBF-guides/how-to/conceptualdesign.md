@@ -28,7 +28,7 @@ Next you need to assemble decision matrices for each basic configuration decisio
 
 We could start building our matrix thusly:
 | Figure | Value |Single Wing|Blended Wing|Canard|
-|------|-------|------|-------|------|-------|
+|------|-------|------|-------|------|
 |Speed|1.0|
 |Payload Capacity|0.8|
 |Structual Weight|0.6|
