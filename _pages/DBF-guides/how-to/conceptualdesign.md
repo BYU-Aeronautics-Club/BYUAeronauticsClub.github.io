@@ -34,7 +34,7 @@ We could start building our matrix thusly:
 |Structual Weight|0.6|
 |Ease of Manufacture|0.4|
 |Ease of Design|0.2|
-|**Total:**||
+|**Total:**|
 
 For each of these, you need to decide how it ranks in each figure of merit, relative to the others.
 
