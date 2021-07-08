@@ -9,7 +9,7 @@ sidebar:
 
 ## Overview:
 
-The key to a good DBF proposal is to address everything in the rubric.  The rubric can be found on the [DBF website](https://www.aiaa.org/dbf) for each year.  In general, our [LaTeX template](https://github.com/BYU-Aeronautics-Club/DBF/tree/master/reports/template) should cover all of the formatting requirements automatically.  For the past several years, the point breakdown and key items for each section has been as follows:
+The key to a good DBF proposal is to address everything in the rubric.  The rubric can be found on the [DBF website](https://www.aiaa.org/dbf/previous-competitions) for each year.  In general, our [LaTeX template](https://github.com/BYU-Aeronautics-Club/DBF/blob/master/reports/template/proposal/proposaltemplate.pdf) should cover all of the formatting requirements automatically.  For the past several years, the point breakdown and key items for each section has been as follows:
 
 1. Executive Summary (10 points)
     - Objective Statement
@@ -44,7 +44,7 @@ After reading through the rules once, go through again and create a checklist fo
 
 ### Step 1.b: Double Check the Template
 
-The [LaTeX template](https://github.com/BYU-Aeronautics-Club/DBF/tree/master/reports/template) should have been updated the previous year to the most recent formatting requirements.  Double check it against the current year's formatting guidelines and adjust anything if necessary.
+The [LaTeX template](https://github.com/BYU-Aeronautics-Club/DBF/blob/master/reports/template/proposal/proposaltemplate.pdf) should have been updated the previous year to the most recent formatting requirements.  Double check it against the current year's formatting guidelines and adjust anything if necessary.
 
 ## Step 2: Translate the Rules
 
@@ -69,7 +69,7 @@ Note that this specific example may not apply or make sense for your mission req
 
 You won't have any details at this point still, but you should know how things relate from basic hand-calculation type equations (like those in the ME 415 course notes).  By knowing how things relate, you'll be able to use the sensitivity study to figure out what aspects of the design need to be maximized/minimized or maybe what compromises need to be made up front to maximize your overall score.  This will directly feed into your preliminary design.
 
-The first take-aways from your sensitivity study should be details that will inform your figures of merit in your conceptual design (see the [Conceptual Design Page](../../../how-to/conceptualdesign.md)).  The sensitivity study will tell you what is most important to prioritize and will help you make some of your configuration decisions.
+The first take-aways from your sensitivity study should be details that will inform your figures of merit in your conceptual design (see the [Conceptual Design Page](../how-to/conceptualdesign.md)).  The sensitivity study will tell you what is most important to prioritize and will help you make some of your configuration decisions.
 
 
 ## Step 5: Conceptual Design
