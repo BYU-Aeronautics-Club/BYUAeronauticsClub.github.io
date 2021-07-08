@@ -27,6 +27,7 @@ Note that you can choose anything you want as a figure of merit, and you can pri
 Next you need to assemble decision matrices for each basic configuration decision (you also need to do this for manufacturing methods and materials).  Let's do an example of wing configuration.  There are typically a few options to choose from: single wing + tail, bi-wing + tail, blended wing/body, wing+canard, and any combination in between and beyond.  For our purposes, let's stick with single wing, blended wing/body, and wing+canard.
 
 We could start building our matrix thusly:
+
 | Figure | Value | Single Wing | Blended Wing | Canard |
 |------|------|------|------|------|
 |Speed|1.0|
@@ -50,7 +51,7 @@ Finally, for ease of design, you might again decide that your team has the most 
 
 All along you've been filling out your matrix and you end up with something that looks like this:
 
-| Figure | Value |Single Wing|Blended Wing|Canard|
+| Figure | Value | Single Wing | Blended Wing | Canard |
 |------|------|------|------|------|------|
 |Speed|1.0|0|0|0|
 |Payload Capacity|0.8|1|-1|0|
@@ -61,7 +62,7 @@ All along you've been filling out your matrix and you end up with something that
 
 Finally, you need to add up each of the columns, each entry multiplied by the figure of merit value.  The option with the highest total, is your chosen design.  If at the end you find that the "best" option doesn't really make sense, then you need to revisit your figures of merit, but if you've chosen intelligently thus far, you should be left with the best choice to move forward with.
 
-| Figure | Value |Single Wing|Blended Wing|Canard|
+| Figure | Value | Single Wing | Blended Wing | Canard |
 |------|------|------|------|------|------|
 |Speed|1.0|0|0|0|
 |Payload Capacity|0.8|1|-1|0|
