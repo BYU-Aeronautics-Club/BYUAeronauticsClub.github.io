@@ -9,7 +9,7 @@ sidebar:
 
 ## Overview:
 
-The key to a good DBF proposal is to address everything in the rubric.  The rubric can be found on the [DBF website](https://www.aiaa.org/dbf/previous-competitions) for each year.  In general, our [LaTeX template](https://github.com/BYU-Aeronautics-Club/DBF/blob/master/reports/template/proposal/proposaltemplate.pdf) should cover all of the formatting requirements automatically.  For the past several years, the point breakdown and key items for each section has been as follows:
+The key to a good DBF proposal is to address everything in the rubric.  The rubric can be found on the [DBF website](https://www.aiaa.org/dbf/competition-information/rules-resources) for each year.  In general, our [LaTeX template](https://github.com/BYU-Aeronautics-Club/DBF/blob/master/reports/template/proposal/proposaltemplate.pdf) should cover all of the formatting requirements automatically.  For the past several years, the point breakdown and key items for each section has been as follows:
 
 1. Executive Summary (10 points)
     - Objective Statement

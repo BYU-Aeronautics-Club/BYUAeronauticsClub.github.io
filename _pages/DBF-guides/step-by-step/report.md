@@ -9,7 +9,7 @@ sidebar:
 
 ## Overview:
 
-The key to a good DBF report is to address everything in the rubric.  The rubric can be found in the rules on the [DBF website](https://www.aiaa.org/dbf) for each year.  In general, our [LaTeX template](https://github.com/BYU-Aeronautics-Club/DBF/tree/master/reports/template) should cover all of the formatting requirements automatically.  For the past several years, the point breakdown and key items for each section has been as follows:
+The key to a good DBF report is to address everything in the rubric.  The rubric can be found in the rules on the [DBF website](https://www.aiaa.org/dbf/competition-information/rules-resources) for each year.  In general, our [LaTeX template](https://github.com/BYU-Aeronautics-Club/DBF/blob/master/reports/template/designreport/reporttemplate.pdf) should cover all of the formatting requirements automatically.  For the past several years, the point breakdown and key items for each section has been as follows:
 
 1. Executive Summary (5 Points)
    - Maximum of 1 page. If exceeded, score as 0 points
