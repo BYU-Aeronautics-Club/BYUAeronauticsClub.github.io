@@ -1,9 +1,9 @@
 ---
-permalink: /DBF-guides/week-by-week/overview/
+permalink: /DBF-guides-temp/week-by-week/overview/
 title: "Overview"
 layout: single
 sidebar:
-    nav: "DBF-guides"
+    nav: "DBF-guides-temp"
 ---
 ## Season Overview
 
@@ -124,4 +124,4 @@ At some point in these four weeks, you'll also want to prototype and test your d
 
 ## Post-season
 
-Now you just want to make sure to write down the things you learned from the competition, update this page and other DBF-guides that you haven't already, and set yourself up for success next year.
+Now you just want to make sure to write down the things you learned from the competition, update this page and other DBF-guides-temp that you haven't already, and set yourself up for success next year.

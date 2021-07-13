@@ -1,9 +1,9 @@
 ---
-permalink: /DBF-guides/week-by-week/manufacturing/
+permalink: /DBF-guides-temp/week-by-week/manufacturing/
 title: "Manufacturing"
 layout: single
 sidebar:
-    nav: "DBF-guides"
+    nav: "DBF-guides-temp"
 ---
 
 The Manufacturing team should really just be manufacturing the whole time.  Each of the other sub-teams will have specific things they need manufactured for testing, etc.  The manufacturing team's job is **NOT** to simply build everything for everyone, but rather to oversee/organize the manufacturing.  You should work with the other subteams to manufacture things, that is, they should assist in the process with your oversight/guidance.

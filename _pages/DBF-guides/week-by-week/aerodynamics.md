@@ -1,9 +1,9 @@
 ---
-permalink: /DBF-guides/week-by-week/aerodynamics/
+permalink: /DBF-guides-temp/week-by-week/aerodynamics/
 title: "Aerodynamics"
 layout: single
 sidebar:
-    nav: "DBF-guides"
+    nav: "DBF-guides-temp"
 ---
 
 

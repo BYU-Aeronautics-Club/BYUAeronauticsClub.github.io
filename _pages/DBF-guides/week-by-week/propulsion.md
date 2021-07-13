@@ -1,9 +1,9 @@
 ---
-permalink: /DBF-guides/week-by-week/propulsion/
+permalink: /DBF-guides-temp/week-by-week/propulsion/
 title: "Propulsion"
 layout: single
 sidebar:
-    nav: "DBF-guides"
+    nav: "DBF-guides-temp"
 ---
 
 The 31-week project breakdown could be as follows:

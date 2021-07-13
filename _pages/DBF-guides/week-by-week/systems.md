@@ -1,9 +1,9 @@
 ---
-permalink: /DBF-guides/week-by-week/systems/
+permalink: /DBF-guides-temp/week-by-week/systems/
 title: "Systems"
 layout: single
 sidebar:
-    nav: "DBF-guides"
+    nav: "DBF-guides-temp"
 ---
 
 The 31-week project breakdown could be as follows:

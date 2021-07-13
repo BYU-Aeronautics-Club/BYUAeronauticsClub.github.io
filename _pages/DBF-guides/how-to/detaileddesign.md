@@ -1,7 +1,7 @@
 ---
-permalink: /DBF-guides/how-to/detaileddesign/
+permalink: /DBF-guides-temp/how-to/detaileddesign/
 title: "Detailed Design"
 layout: single
 sidebar:
-    nav: "DBF-guides"
+    nav: "DBF-guides-temp"
 ---

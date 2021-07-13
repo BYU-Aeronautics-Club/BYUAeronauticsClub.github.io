@@ -1,9 +1,9 @@
 ---
-permalink: /DBF-guides/step-by-step/report/
+permalink: /DBF-guides-temp/step-by-step/report/
 title: "Writing the Final Report"
 layout: single
 sidebar:
-    nav: "DBF-guides"
+    nav: "DBF-guides-temp"
 ---
 
 

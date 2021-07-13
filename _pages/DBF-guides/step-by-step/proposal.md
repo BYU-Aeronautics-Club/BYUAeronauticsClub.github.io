@@ -1,9 +1,9 @@
 ---
-permalink: /DBF-guides/step-by-step/proposal/
+permalink: /DBF-guides-temp/step-by-step/proposal/
 title: "Writing the Proposal"
 layout: single
 sidebar:
-    nav: "DBF-guides"
+    nav: "DBF-guides-temp"
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-permalink: /DBF-guides/week-by-week/graphics/
+permalink: /DBF-guides-temp/week-by-week/graphics/
 title: "Graphics"
 layout: single
 sidebar:
-    nav: "DBF-guides"
+    nav: "DBF-guides-temp"
 ---
 
 

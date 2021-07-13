@@ -1,9 +1,9 @@
 ---
-permalink: /DBF-guides/week-by-week/structures/
+permalink: /DBF-guides-temp/week-by-week/structures/
 title: "Structures"
 layout: single
 sidebar:
-    nav: "DBF-guides"
+    nav: "DBF-guides-temp"
 ---
 
 

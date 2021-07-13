@@ -1,7 +1,7 @@
 ---
-permalink: /DBF-guides/techwriting/xdsm/
+permalink: /DBF-guides-temp/techwriting/xdsm/
 title: "Flow Charts"
 layout: single
 sidebar:
-    nav: "DBF-guides"
+    nav: "DBF-guides-temp"
 ---
