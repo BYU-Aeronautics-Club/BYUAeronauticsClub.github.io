@@ -38,7 +38,7 @@ leadership_row2:
   - image_path: /assets/images/Ethan_G.jpg
     alt: "Councilor"
     title: "Councilor"
-    excerpt: "Ethan Gardner"
+    excerpt: "Ethan G"
     
 leadership_row3:
   - image_path: /assets/images/Allison_J.png
