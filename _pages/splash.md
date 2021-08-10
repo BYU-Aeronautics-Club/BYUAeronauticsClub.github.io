@@ -27,28 +27,20 @@ leadership_row:
   - title: "Student Leadership"
 
 leadership_row2:
-  - image_path: /assets/images/Adam_H.jpeg
+  - image_path: /assets/images/AdamHale.jpg
     alt: "President"
     title: "President"
     excerpt: "Adam Hale"
-  - image_path: /assets/images/Mark.jpg
+  - image_path: /assets/images/BenPavik.jpg
     alt: "Councilor"
-    title: "Councilor"
-    excerpt: "Mark Anderson"
-  - image_path: /assets/images/Ethan_G.jpg
+    title: "Vice President"
+    excerpt: "Ben Pavik"
+  - image_path: /assets/images/GrantMiller.jpg
     alt: "Councilor"
-    title: "Councilor"
-    excerpt: "Ethan G"
+    title: "Secretary"
+    excerpt: "Grant Miller"
     
 leadership_row3:
-  - image_path: /assets/images/Allison_J.png
-    alt: "Assets Manager"
-    title: "Assets Manager"
-    excerpt: "Allison Johnson"
-  - image_path: /assets/images/Adam_W.jpg
-    alt: "Student Instructor"
-    title: "Student Instructor"
-    excerpt: "Adam Wangeman"
   - image_path: /assets/images/Will N.jpg
     alt: "Photographer"
     title: "Photographer"
