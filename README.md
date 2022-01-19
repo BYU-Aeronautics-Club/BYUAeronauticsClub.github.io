@@ -1,3 +1,3 @@
 # Welcome
 
-[Visit our website!](http://flow.byu.edu/byu-aero-club/)
+[Visit our website!](https://byu-aeronautics-club.github.io/)
